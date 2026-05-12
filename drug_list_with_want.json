@@ -1,0 +1,5062 @@
+{
+    "ยาใช้ภายนอก": [
+        {
+            "want": "35",
+            "name": "TRINOLONE ORAL PASTE 5G.",
+            "profit": 14.5
+        },
+        {
+            "want": "35",
+            "name": "KANOLONE ORAL PASTE (รุ่นดั้งเดิม) 5G.",
+            "profit": 15
+        },
+        {
+            "want": "25",
+            "name": "TRINOLONE ORAL PASTE 1G.(ชนิดซอง)",
+            "profit": 4.05
+        },
+        {
+            "want": "41",
+            "name": "LONNAGEL (กลิ่นส้ม) 5G.",
+            "profit": 16.25
+        },
+        {
+            "want": "41",
+            "name": "LONNAGEL CREAM (กลิ่นเป๊ปเปอร์มิ้นท์) 5G.",
+            "profit": 16.25
+        },
+        {
+            "want": "49",
+            "name": "CLOBET CREAM 10G.",
+            "profit": 31.2
+        },
+        {
+            "want": "180",
+            "name": "DERMOVATE CREAM 15G.",
+            "profit": 107.1
+        },
+        {
+            "want": "199",
+            "name": "CLOBETATE SCALP 30ML.",
+            "profit": 33
+        },
+        {
+            "want": "265",
+            "name": "DERMOVATE SCALP 30ML.",
+            "profit": 78
+        },
+        {
+            "want": "70",
+            "name": "betasone-n 5g",
+            "profit": 50
+        },
+        {
+            "want": "45",
+            "name": "ขี้ผึ้ง 29A (7.5g)",
+            "profit": 5.41
+        },
+        {
+            "want": "75",
+            "name": "BANOCIN POWDER 10G.",
+            "profit": 18.57
+        },
+        {
+            "want": "180",
+            "name": "CLOPIROX SOLUTION 15ML.",
+            "profit": 30.44
+        },
+        {
+            "want": "150",
+            "name": "HAFIF SHAMPOO 50ML.",
+            "profit": 54.25
+        },
+        {
+            "want": "180",
+            "name": "FUNGINOX 25ML.",
+            "profit": 86.9
+        },
+        {
+            "want": "120",
+            "name": "CON-CON 15ML.",
+            "profit": 21
+        },
+        {
+            "want": "95",
+            "name": "MYKODERM CLOTRIMAZOLE DUSTING POWDER 1% W/W 75G.",
+            "profit": 60.25
+        },
+        {
+            "want": "60",
+            "name": "MYDA POWDER 20G.",
+            "profit": 19
+        },
+        {
+            "want": "90",
+            "name": "BETHASONE CREAM 15G.",
+            "profit": 15
+        },
+        {
+            "want": "120",
+            "name": "Myda-BS 15g. (สูตรเย็น)",
+            "profit": 11.5
+        },
+        {
+            "want": "350",
+            "name": "ELOMET CREAM 15G.",
+            "profit": 75.5
+        },
+        {
+            "want": "130",
+            "name": "KELA LOTION 30ML.",
+            "profit": 16
+        },
+        {
+            "want": "120",
+            "name": "TRAM LOTION 30ML.",
+            "profit": 17.5
+        },
+        {
+            "want": "180",
+            "name": "KANOLONE LOTION 60ML.",
+            "profit": 25.75
+        },
+        {
+            "want": "120",
+            "name": "TV lone lotion 30 ml",
+            "profit": 18
+        },
+        {
+            "want": "140",
+            "name": "ARISTOCORT 0.1%CREAM 15G.",
+            "profit": 31.82
+        },
+        {
+            "want": "130",
+            "name": "KELA CREAM 0.1%15G.",
+            "profit": 19.21
+        },
+        {
+            "want": "120",
+            "name": "T.A.CREAM 0.1% 15g",
+            "profit": 11
+        },
+        {
+            "want": "60",
+            "name": "T.A.CREAM 0.1% 5g",
+            "profit": 15.2
+        },
+        {
+            "want": "110",
+            "name": "T.A.CREAM 0.02% 15g",
+            "profit": 11
+        },
+        {
+            "want": "55",
+            "name": "T.A.CREAM 0.02% 5g",
+            "profit": 15.9
+        },
+        {
+            "want": "130",
+            "name": "ARISTOCORT 0.02%CREAM 15G.",
+            "profit": 21
+        },
+        {
+            "want": "45",
+            "name": "Hytisone hydrocortisone 1% 5g/หลอด",
+            "profit": 24
+        },
+        {
+            "want": "120",
+            "name": "ANTERGAN CREAM 25G.",
+            "profit": 21.5
+        },
+        {
+            "want": "60",
+            "name": "ANTERGAN CREAM 10G.",
+            "profit": 10.83
+        },
+        {
+            "want": "130",
+            "name": "SYSTRAL CREAM 25G.",
+            "profit": 31
+        },
+        {
+            "want": "65",
+            "name": "SYSTRAL CREAM 10G.",
+            "profit": 18.5
+        },
+        {
+            "want": "190",
+            "name": "FENISTIL GEL 20G.",
+            "profit": 24.5
+        },
+        {
+            "want": "120",
+            "name": "TONAF 2% CREAM 15G.",
+            "profit": 28.5
+        },
+        {
+            "want": "120",
+            "name": "TONAF CREAM 15G.",
+            "profit": 23.21
+        },
+        {
+            "want": "180",
+            "name": "ZEMA PRO CREAM 1% TERBINAFINE 15G",
+            "profit": 32
+        },
+        {
+            "want": "150",
+            "name": "ZEMA LOTION 30ML.",
+            "profit": 17.44
+        },
+        {
+            "want": "90",
+            "name": "ZEMA CREAM 10G.",
+            "profit": 15.96
+        },
+        {
+            "want": "110",
+            "name": "CANASONE C.B.15G.",
+            "profit": 25.88
+        },
+        {
+            "want": "55",
+            "name": "CANASONE C.B.5G.",
+            "profit": 18.2
+        },
+        {
+            "want": "150",
+            "name": "MYDA-B CREAM 25G.",
+            "profit": 26.46
+        },
+        {
+            "want": "110",
+            "name": "MYDA-B CREAM 15G.",
+            "profit": 18
+        },
+        {
+            "want": "55",
+            "name": "MYDA-B CREAM 5G.",
+            "profit": 12.8
+        },
+        {
+            "want": "130",
+            "name": "FUNGIDERM-B CREAM 20G.",
+            "profit": 21.91
+        },
+        {
+            "want": "80",
+            "name": "FUNGIDERM-B CREAM 10G.",
+            "profit": 20.57
+        },
+        {
+            "want": "100",
+            "name": "CANAZOL-Be CREAM 15G.",
+            "profit": 27.25
+        },
+        {
+            "want": "50",
+            "name": "CANAZOL-Be CREAM 5G.",
+            "profit": 15.61
+        },
+        {
+            "want": "80",
+            "name": "PHIL VOLTE CREAM 10g",
+            "profit": 15
+        },
+        {
+            "want": "170",
+            "name": "DERTEC CREAM 15G.",
+            "profit": 20.5
+        },
+        {
+            "want": "75",
+            "name": "DERTEC CREAM 5G.",
+            "profit": 16
+        },
+        {
+            "want": "120",
+            "name": "MYDERM QUAD CREAM 15G.",
+            "profit": 21.75
+        },
+        {
+            "want": "60",
+            "name": "MYDERM QUAD CREAM 5G.",
+            "profit": 22.75
+        },
+        {
+            "want": "130",
+            "name": "DERMAHEU CREAM 25G.",
+            "profit": 36.87
+        },
+        {
+            "want": "90",
+            "name": "DERMAHEU CREAM 15G.",
+            "profit": 28
+        },
+        {
+            "want": "45",
+            "name": "DERMAHEU CREAM 5G.",
+            "profit": 24.87
+        },
+        {
+            "want": "120",
+            "name": "CANESTEN O.D.CREAM 10G.",
+            "profit": 71.5
+        },
+        {
+            "want": "100",
+            "name": "CANESTEN CREAM 10G.",
+            "profit": 32.8
+        },
+        {
+            "want": "90",
+            "name": "LAMAZONE CREAM 10G.",
+            "profit": 17.5
+        },
+        {
+            "want": "190",
+            "name": "NIZORAL CREAM 15G.",
+            "profit": 57.67
+        },
+        {
+            "want": "70",
+            "name": "LYMARIN CREAM 5G.",
+            "profit": 21.6
+        },
+        {
+            "want": "160",
+            "name": "LYMARIN CREAM 15G.",
+            "profit": 23
+        },
+        {
+            "want": "110",
+            "name": "TARA-PLUS CREAM 15G.",
+            "profit": 22.9
+        },
+        {
+            "want": "100",
+            "name": "TIMI cream 15g.",
+            "profit": 14.25
+        },
+        {
+            "want": "110",
+            "name": "BACTEX OINTMENT 5G.",
+            "profit": 69.95
+        },
+        {
+            "want": "110",
+            "name": "Bacticin 5g.",
+            "profit": 74.9
+        },
+        {
+            "want": "140",
+            "name": "GARAMYCIN CREAM 15G.",
+            "profit": 38
+        },
+        {
+            "want": "33",
+            "name": "GRAMMIXIN CREAM 10G.",
+            "profit": 20
+        },
+        {
+            "want": "110",
+            "name": "BETA-DIPO CREAM 15G.",
+            "profit": 20.5
+        },
+        {
+            "want": "55",
+            "name": "BETA-DIPO CREAM 5G.",
+            "profit": 17.6
+        },
+        {
+            "want": "120",
+            "name": "MYDERMIC 15G",
+            "profit": 17.54
+        },
+        {
+            "want": "250",
+            "name": "FUCICORT CREAM 5G.       IIIIIIIIII",
+            "profit": 43
+        },
+        {
+            "want": "220",
+            "name": "FUCIDIN OINTMENT 5G.     IIIIIIIIII",
+            "profit": 35
+        },
+        {
+            "want": "240",
+            "name": "FUCIDIN H CREAM 5G.       IIIIIIIIII",
+            "profit": 44
+        },
+        {
+            "want": "220",
+            "name": "FUCIDIN CREAM 5G.           IIIIIIIIII",
+            "profit": 35
+        },
+        {
+            "want": "190",
+            "name": "SILVERDERM CREAM 25G.",
+            "profit": 24.33
+        },
+        {
+            "want": "??",
+            "name": "KETAZON SHAMPOO 200ML.",
+            "profit": "-"
+        },
+        {
+            "want": "220",
+            "name": "KETAZON SHAMPOO 100ML.",
+            "profit": 48.4
+        },
+        {
+            "want": "130",
+            "name": "KETAZON SHAMPOO 50ML.",
+            "profit": 31
+        },
+        {
+            "want": "190",
+            "name": "NORA SHAMPOO 100ML.",
+            "profit": 43
+        },
+        {
+            "want": "110",
+            "name": "NORA SHAMPOO 50ML.",
+            "profit": 32
+        },
+        {
+            "want": "??",
+            "name": "FUNGIDERM-K SHAMPOO 100ML",
+            "profit": "-"
+        },
+        {
+            "want": "??",
+            "name": "FUNGIDERM-K SHAMPOO 50ML",
+            "profit": "-"
+        },
+        {
+            "want": "450",
+            "name": "NIZORAL SHAMPOO 200ML.",
+            "profit": 17
+        },
+        {
+            "want": "201",
+            "name": "NIZORAL SHAMPOO 100ML.",
+            "profit": 49
+        },
+        {
+            "want": "117",
+            "name": "NIZORAL SHAMPOO 50ML.",
+            "profit": 28
+        },
+        {
+            "want": "120",
+            "name": "MYDA SHAMPOO 50ML.",
+            "profit": 19.5
+        },
+        {
+            "want": "90",
+            "name": "สบู่ MYDA SOAP 80G.",
+            "profit": 15
+        },
+        {
+            "want": "45",
+            "name": "สบู่ MYDA SOAP 30G.",
+            "profit": 8.5
+        },
+        {
+            "want": "250",
+            "name": "HEXENE SKIN CLEANSER 500ML.",
+            "profit": 55
+        },
+        {
+            "want": "150",
+            "name": "SELFIDE SELENIUM 120ML",
+            "profit": 39
+        },
+        {
+            "want": "47",
+            "name": "SELFIDE SELENIUM 60ML",
+            "profit": 23
+        },
+        {
+            "want": "180",
+            "name": "SELSUN 120ML.",
+            "profit": 66
+        },
+        {
+            "want": "120",
+            "name": "SELSUN 60ML.",
+            "profit": 38.5
+        },
+        {
+            "want": "70",
+            "name": "SELSUN 30ML.",
+            "profit": 38.5
+        },
+        {
+            "want": "90",
+            "name": "HEXENE SKIN CLEANSER 100ML.",
+            "profit": 22
+        },
+        {
+            "want": "90",
+            "name": "HEXENE SKIN CLEANSER 100ML.",
+            "profit": 22
+        },
+        {
+            "want": "120",
+            "name": "OXE'CURE SULFUR SOAP 100G.",
+            "profit": 58.13
+        },
+        {
+            "want": "180",
+            "name": "OUTCOME แชมพูกำจัดเหา 60มล.",
+            "profit": 45
+        },
+        {
+            "want": "250",
+            "name": "HIRUSCAR POST ACNE GEL 5G.",
+            "profit": 56
+        },
+        {
+            "want": "450",
+            "name": "DERMATIX ULTRA GEL 5G.",
+            "profit": 132.97
+        },
+        {
+            "want": "280",
+            "name": "SCAGEL 9G.",
+            "profit": 45
+        },
+        {
+            "want": "400",
+            "name": "DERMATIX WOUND CARE 20G.",
+            "profit": 85.5
+        },
+        {
+            "want": "280",
+            "name": "PURICAS ADVANCED DRAGON'S BLOOD SCAR GEL 9G.",
+            "profit": 107.93
+        },
+        {
+            "want": "150",
+            "name": "PURICAS DRAGON'S BLOOD SCAR GEL 3G.",
+            "profit": 29
+        },
+        {
+            "want": "250",
+            "name": "PURICAS DRAGON'S BLOOD SCAR GEL 8G",
+            "profit": 42.5
+        },
+        {
+            "want": "250",
+            "name": "PURICAS DRAGON'S BLOOD SCAR GEL 8G.",
+            "profit": 42.5
+        },
+        {
+            "want": "450",
+            "name": "PURICAS DRAGON'S BLOOD SCAR GEL 20G.",
+            "profit": 161.12
+        },
+        {
+            "want": "0",
+            "name": "6941447550595",
+            "profit": 19
+        },
+        {
+            "want": "150",
+            "name": "CLINDALIN GEL 5G.",
+            "profit": 15
+        },
+        {
+            "want": "150",
+            "name": "TOMEI CLINDAI GEL 5G.",
+            "profit": 16
+        },
+        {
+            "want": "250",
+            "name": "BENZAC AC GEL 2.5%15G.",
+            "profit": 36
+        },
+        {
+            "want": "280",
+            "name": "BENZAC AC GEL 5%15G.",
+            "profit": 38
+        },
+        {
+            "want": "550",
+            "name": "BENZAC AC GEL 2.5%60G.",
+            "profit": 124
+        },
+        {
+            "want": "600",
+            "name": "BENZAC AC GEL 5%60G.",
+            "profit": 95
+        },
+        {
+            "want": "650",
+            "name": "SKINOREN CREAM 30G.",
+            "profit": 176
+        },
+        {
+            "want": "160",
+            "name": "ACNETIN-A CREAM 0.025%10G.",
+            "profit": 22
+        },
+        {
+            "want": "180",
+            "name": "ACNETIN-A CREAM 0.05%10G.",
+            "profit": 22
+        },
+        {
+            "want": "200",
+            "name": "CLENA EX 15G.",
+            "profit": 52.25
+        },
+        {
+            "want": "190",
+            "name": "HIRUDOID FORTE CREAM 10G.",
+            "profit": 39.5
+        },
+        {
+            "want": "300",
+            "name": "HIRUDOID FORTE CREAM 20G.",
+            "profit": 48
+        },
+        {
+            "want": "280",
+            "name": "HIRUDOID CREAM 20G.",
+            "profit": 39
+        },
+        {
+            "want": "170",
+            "name": "HIRUDOID CREAM 10G.",
+            "profit": 27.75
+        },
+        {
+            "want": "699 THB",
+            "name": "ACNE-AID GENTLE CLEANSER (สีฟ้า) 900ML.",
+            "profit": "??"
+        },
+        {
+            "want": "429 THB",
+            "name": "ACNE-AID GENTLE CLEANSER (สีฟ้า) 500ML.",
+            "profit": "??"
+        },
+        {
+            "want": "180",
+            "name": "ACNE-AID GENTLE CLEANSER (สีฟ้า) 100ML.",
+            "profit": 44.58
+        },
+        {
+            "want": "180",
+            "name": "ACNE-AID LIQUID CLEANSER (สีแดง) 100ML.",
+            "profit": 24.5
+        },
+        {
+            "want": "450",
+            "name": "CETAPHIL CLEANSER 500ML.",
+            "profit": 236.71
+        },
+        {
+            "want": "550",
+            "name": "CERAVE MOISTURISING LOTION 473ML.",
+            "profit": 243
+        },
+        {
+            "want": "180",
+            "name": "CERAVE MOISTURISING CREAM 50ML.",
+            "profit": 42.12
+        },
+        {
+            "want": "80",
+            "name": "BURNOVA GEL PLUS 25G",
+            "profit": 19.75
+        },
+        {
+            "want": "150",
+            "name": "BURNOVA GEL PLUS 70G",
+            "profit": 34
+        },
+        {
+            "want": "220",
+            "name": "BURNOVA GEL PLUS SNOW ALGAE 70G.",
+            "profit": 35
+        },
+        {
+            "want": "100",
+            "name": "BURNOVA GEL PLUS PLANKTON 25G.",
+            "profit": 23.5
+        },
+        {
+            "want": "180",
+            "name": "BURNOVA GEL PLUS PLANKTON 70G.",
+            "profit": 35
+        },
+        {
+            "want": "100",
+            "name": "Burnova gel 35g",
+            "profit": 90
+        },
+        {
+            "want": "180",
+            "name": "VITARA ALOE VERA GEL 120G.",
+            "profit": 45
+        },
+        {
+            "want": "250",
+            "name": "VITARA ALOE VERA GEL PLUS 5%PANTHENOL 120G.",
+            "profit": 45
+        },
+        {
+            "want": "350",
+            "name": "Banana Boat Ultra Protect Sunscreen Lotion SPF50 PA++++ 90 Ml.",
+            "profit": 203.38
+        },
+        {
+            "want": "380",
+            "name": "Banana Boat Sport Ultra Sunscreen Lotion SPF 50 PA++++ 90 Ml.",
+            "profit": 203.38
+        },
+        {
+            "want": "300",
+            "name": "Banana Boat Aqua Daily Moisture UV Protection Sunscreen Lotion SPF 50+ PA++++ 50 Ml.",
+            "profit": 198.9
+        }
+    ],
+    "ยาระบบประสาท": [
+        {
+            "want": "350",
+            "name": "BEPANTHEN OINTMENT 30G.",
+            "profit": 45.5
+        },
+        {
+            "want": "300",
+            "name": "BEPANTHEN FIRST AID CREAM 30G.",
+            "profit": 43.75
+        },
+        {
+            "want": "180",
+            "name": "NAPPY-HIPPO 25G.",
+            "profit": 18.5
+        },
+        {
+            "want": "145",
+            "name": "EZERRA CREAM 50G.",
+            "profit": 30
+        },
+        {
+            "want": "250",
+            "name": "MEBO 10G.",
+            "profit": 35
+        },
+        {
+            "want": "150",
+            "name": "Babycare ผื่นผ้าอ้อม 30 g.",
+            "profit": 22
+        },
+        {
+            "want": "350",
+            "name": "DIABEDERM CREAM 10%100G.",
+            "profit": 56
+        },
+        {
+            "want": "200",
+            "name": "DIABEDERM CREAM 20%35G.",
+            "profit": 36.25
+        },
+        {
+            "want": "150",
+            "name": "DIABEDERM CREAM 10%35G.",
+            "profit": 29.25
+        },
+        {
+            "want": "120",
+            "name": "NEUROBION 10'S.",
+            "profit": 15.66
+        },
+        {
+            "want": "80",
+            "name": "B CO-ED 10'S.",
+            "profit": 20
+        },
+        {
+            "want": "150",
+            "name": "METHYCOBAL 500MG.10'S.",
+            "profit": 22
+        },
+        {
+            "want": "150",
+            "name": "MECOBAL (10's)",
+            "profit": 13.6
+        },
+        {
+            "want": "100",
+            "name": "RE-B FORTE 10'S.",
+            "profit": 20.55
+        },
+        {
+            "want": "250",
+            "name": "NERVICA 75MG.14'S.",
+            "profit": 40.25
+        },
+        {
+            "want": "180",
+            "name": "BERLONTIN 300MG.10'S.",
+            "profit": 29.69
+        },
+        {
+            "want": "180",
+            "name": "VULTIN 300MG.10'S.",
+            "profit": 20.5
+        },
+        {
+            "want": "100",
+            "name": "GPO GABAPENTIN 100MG.10'S.",
+            "profit": 13.5
+        },
+        {
+            "want": "150",
+            "name": "CEPHADOL 25MG.10'S.",
+            "profit": 5
+        },
+        {
+            "want": "80",
+            "name": "SIARIZINE 25MG.10'S.",
+            "profit": 14
+        },
+        {
+            "want": "180",
+            "name": "STEI 16MG.10'S.",
+            "profit": 27.34
+        },
+        {
+            "want": "150",
+            "name": "MERTIGO 12MG. 10'S",
+            "profit": 8.39
+        },
+        {
+            "want": "150",
+            "name": "MERISLON 12MG.10'S.",
+            "profit": 20.333
+        },
+        {
+            "want": "90",
+            "name": "MERISLON 6MG.10'S.",
+            "profit": 10.76
+        },
+        {
+            "want": "90",
+            "name": "MERTIGO 6MG. 10'S",
+            "profit": 14.2
+        },
+        {
+            "want": "80",
+            "name": "DRAMAMINE 50MG.10'S.",
+            "profit": 13.48
+        },
+        {
+            "want": "60",
+            "name": "STREPSILS-แม็กซี่่พลัส ชนิดซอง 6'S.",
+            "profit": 12.92
+        },
+        {
+            "want": "80",
+            "name": "STREPSILS-แม็กซ์โปร ชนิดซอง 8'S.",
+            "profit": 25
+        },
+        {
+            "want": "80",
+            "name": "STREPSILS-เชสตี้คอฟ ชนิดซอง 8'S.",
+            "profit": 20
+        },
+        {
+            "want": "350",
+            "name": "AMSEL VITAMIN B COMPLEX HG 40'S.",
+            "profit": 137.97
+        },
+        {
+            "want": "400",
+            "name": "AMSEL GINKGO 45'S.",
+            "profit": 104.45
+        },
+        {
+            "want": "450",
+            "name": "AMSEL L-ARGININE PLUS ZINC 40'S.",
+            "profit": 71.78
+        },
+        {
+            "want": "500",
+            "name": "AMSEL MAGNESIUM BISGLYCINATE PLUS CHAMOMILE AND TART CHERRY 30'S.",
+            "profit": 232.67
+        },
+        {
+            "want": "250",
+            "name": "AMSEL VITAMIN C 500mg 30'S",
+            "profit": 97.51
+        },
+        {
+            "want": "400",
+            "name": "AMSEL GLUTAMINE 800MG.30'S.",
+            "profit": 115.6
+        },
+        {
+            "want": "450",
+            "name": "BLACKMORES BIO CALCIUM+D3 60'S.",
+            "profit": 106
+        },
+        {
+            "want": "350",
+            "name": "BLACKMORES BIO C 1000 mg DAILY IMU+ (30 TAB)",
+            "profit": 160.95
+        },
+        {
+            "want": "300",
+            "name": "BLACKMORES NATURETIME BUFFERED C 500MG.31'S.",
+            "profit": 64
+        },
+        {
+            "want": "350",
+            "name": "BLACKMORES FISH OIL MINI 60'S.",
+            "profit": 212.96
+        },
+        {
+            "want": "600",
+            "name": "BLACKMORES LUTEIN-VIS 60'S.",
+            "profit": 225.04
+        },
+        {
+            "want": "300",
+            "name": "BLACKMORES EXEC-B 30'S.",
+            "profit": 91
+        },
+        {
+            "want": "250",
+            "name": "VISTRA B-COMPLEX 30'S.",
+            "profit": 33.37
+        },
+        {
+            "want": "280",
+            "name": "VISTRA BIO-C 1000MG.30'S",
+            "profit": 97.41
+        },
+        {
+            "want": "300",
+            "name": "VISTRA MAGNESIUM COMPLEX 30'S.",
+            "profit": 103.37
+        },
+        {
+            "want": "250",
+            "name": "VISTRA ZINC 15MG.45'S.",
+            "profit": 190
+        },
+        {
+            "want": "300",
+            "name": "VISTRA ODORLESS FISH OIL 1000MG.45'S.",
+            "profit": 71.23
+        },
+        {
+            "want": "350",
+            "name": "VISTRA BILBERRY EXTRACT 30'S.",
+            "profit": 160.03
+        },
+        {
+            "want": "250",
+            "name": "VISTRA GOTU KOLA EXTRACT 30'S.",
+            "profit": 135.21
+        },
+        {
+            "want": "300",
+            "name": "VISTRA VITAL-PRO MULTIVITAMINS 30'S",
+            "profit": 138.86
+        },
+        {
+            "want": "380",
+            "name": "VISTRA REGOW 30'S.",
+            "profit": 155.89
+        },
+        {
+            "want": "450",
+            "name": "VISTRA COLLAGEN TYPE-2 30'S.",
+            "profit": 293.2
+        },
+        {
+            "want": "300",
+            "name": "VISTRA GINKGO 120MG.30'S.",
+            "profit": 107.37
+        },
+        {
+            "want": "350",
+            "name": "VISTRA ACEROLA CHERRY 1000MG.45'S.",
+            "profit": 105.5
+        },
+        {
+            "want": "280",
+            "name": "INTERPHARMA VIT C 1000MG.20'S.",
+            "profit": 44
+        },
+        {
+            "want": "150",
+            "name": "CDR (รสส้ม) 15'S.",
+            "profit": 44
+        },
+        {
+            "want": "200",
+            "name": "BEROCCA IMMU D+ 15'S.(รสส้ม)",
+            "profit": 43
+        },
+        {
+            "want": "150",
+            "name": "NEWPHARVIT 100'S.",
+            "profit": 28.75
+        },
+        {
+            "want": "300",
+            "name": "VISTRA COLLAGEN 1300MG.30'S.",
+            "profit": 165.23
+        },
+        {
+            "want": "400",
+            "name": "VISTRA GLUTA COMPLEX 800MG.30'S.",
+            "profit": 188.63
+        },
+        {
+            "want": "350",
+            "name": "VISTRA COENZYME Q10 30MG.30'S.",
+            "profit": 91.41
+        },
+        {
+            "want": "400",
+            "name": "VISTRA VAGINY 30'S.",
+            "profit": 209.23
+        },
+        {
+            "want": "120",
+            "name": "C-20 MOUTH WASH (สีแดง) 180ML.",
+            "profit": 21.5
+        },
+        {
+            "want": "200",
+            "name": "C-20 MOUTH WASH (สีแดง) 360ML.",
+            "profit": 31
+        },
+        {
+            "want": "150",
+            "name": "URINAL BOTTLE 1000ML.",
+            "profit": 35
+        },
+        {
+            "want": "550",
+            "name": "S-26 GOLD PRO-C (สูตร1) 550G.",
+            "profit": 60.22
+        },
+        {
+            "want": "600",
+            "name": "NEO-MUNE (กลิ่นข้าวญี่ปุ่น) 400G.",
+            "profit": 66.9
+        },
+        {
+            "want": "650",
+            "name": "ONCE RENAL 400G.",
+            "profit": 77.73
+        },
+        {
+            "want": "900",
+            "name": "BOOST FIBER 800G.",
+            "profit": 245
+        },
+        {
+            "want": "100",
+            "name": "GLUCOLIN 400G.",
+            "profit": 34
+        },
+        {
+            "want": "300",
+            "name": "Dr.PONG Triple C 1000 Vitamin C 1000mg (30 CAP)",
+            "profit": 57.19
+        },
+        {
+            "want": "450",
+            "name": "Dr.PONG Astaxanthin 6mg 30 Caps.",
+            "profit": 152.18
+        },
+        {
+            "want": "280",
+            "name": "Dr.PONG B Complex 1-6-12 (30 CAP)",
+            "profit": 74.99
+        },
+        {
+            "want": "300",
+            "name": "Dr.PONG Zinc Bisglycinate 60 Caps.",
+            "profit": 71.25
+        },
+        {
+            "want": "350",
+            "name": "TRIPLE OMEGA FISH OIL 1500MG. 30'C.(MEGA)",
+            "profit": 121
+        },
+        {
+            "want": "280",
+            "name": "FISH OIL 1000MG.(MEGA) 30'S.",
+            "profit": 39
+        },
+        {
+            "want": "750",
+            "name": "FISH OIL 1000MG.(MEGA) 100'S.",
+            "profit": 79
+        },
+        {
+            "want": "290",
+            "name": "NAT MAG 30'S.",
+            "profit": 52
+        },
+        {
+            "want": "319 THB",
+            "name": "NAT-C 1000MG.30'S.",
+            "profit": "???"
+        },
+        {
+            "want": "549 THB",
+            "name": "NAT-C 1000MG.60'S.",
+            "profit": "???"
+        },
+        {
+            "want": "180",
+            "name": "HAEMO-VIT 100'S.",
+            "profit": 26
+        },
+        {
+            "want": "980",
+            "name": "CENTRUM SILVER 50+ 90'S.",
+            "profit": 300.75
+        },
+        {
+            "want": "120",
+            "name": "VIBOOSTA Mg Plus (ชนิดเม็ดฟู่) 7'S.",
+            "profit": 61.667
+        },
+        {
+            "want": "280",
+            "name": "Bewel Salmon Fish Oil 1000Mg Plus Vitamin-E 30'S",
+            "profit": 59.86
+        },
+        {
+            "want": "550",
+            "name": "BEWEL Astaxanthin 6 Mg Plus Co-Q10 & Vitamin-E 30'S",
+            "profit": 347.14
+        },
+        {
+            "want": "790",
+            "name": "ALLWELL ไม้เท้าขาเดี่ยวพับได้ สีคาร์บอนไฟเบอร์ (รุ่น GOLITE)",
+            "profit": 312.57
+        },
+        {
+            "want": "790",
+            "name": "ALLWELL ไม้เท้าขาเดี่ยวพับได้ สีคาร์บอนไฟเบอร์ (รุ่น GOLITE4)",
+            "profit": 374.14
+        }
+    ],
+    "คุมกำเนิด/ฮอร์โมน": [
+        {
+            "want": "250",
+            "name": "NANO OVULATION TEST (กล่อง 5 ชุด) ชุดทดสอบการตกไข่",
+            "profit": 72
+        },
+        {
+            "want": "80",
+            "name": "PHECARE ชุดตรวจครรภ์ชนิดปากกา",
+            "profit": 27
+        },
+        {
+            "want": "70",
+            "name": "LONGMED ชุดตรวจการตั้งครรภ์ (MIDSTREAM-ชนิดปากกา)",
+            "profit": 52.81
+        },
+        {
+            "want": "50",
+            "name": "LONGMED ชุดตรวจการตั้งครรภ์ (CASSETTE-ชนิดหยด)",
+            "profit": 27
+        },
+        {
+            "want": "40",
+            "name": "LONGMED ชุดตรวจการตั้งครรภ์ (STRIP-ชนิดแผ่นจุ่ม)",
+            "profit": 23.22
+        },
+        {
+            "want": "120",
+            "name": "Chemtrue ชุดตรวจแอมเฟตามีน",
+            "profit": 120
+        },
+        {
+            "want": "100",
+            "name": "TANSY ONE 1'S.",
+            "profit": 31.09
+        },
+        {
+            "want": "100",
+            "name": "VENUZ ONE ยาคุมฉุกเฉินเม็ดเดี่ยว (1's)",
+            "profit": 27.64
+        },
+        {
+            "want": "60",
+            "name": "MADONNA 2'S.",
+            "profit": 25.1
+        },
+        {
+            "want": "100",
+            "name": "MADONNA ONE 1'S.",
+            "profit": 25.1
+        },
+        {
+            "want": "ได้ฟรี",
+            "name": "CHECK TRU ชุดตรวจการตกไข่",
+            "profit": 60
+        },
+        {
+            "want": "250",
+            "name": "JUSTIMA 21'S.",
+            "profit": 36
+        },
+        {
+            "want": "250",
+            "name": "MELODIA 21'S.",
+            "profit": 37
+        },
+        {
+            "want": "490",
+            "name": "YASMIN 21'S.",
+            "profit": 40
+        },
+        {
+            "want": "180",
+            "name": "CAMELLA 21'S.",
+            "profit": 20
+        },
+        {
+            "want": "180",
+            "name": "CAMELLA 28'S.",
+            "profit": 20
+        },
+        {
+            "want": "120",
+            "name": "ANNYLYN 21'S.",
+            "profit": 24.25
+        },
+        {
+            "want": "120",
+            "name": "ANNYLYN 28'S.",
+            "profit": 29.52
+        },
+        {
+            "want": "120",
+            "name": "RITA 21'S.",
+            "profit": 15.75
+        },
+        {
+            "want": "120",
+            "name": "RITA 28'S.",
+            "profit": 16.5
+        },
+        {
+            "want": "180",
+            "name": "MERCILON 21'S.",
+            "profit": 21
+        },
+        {
+            "want": "180",
+            "name": "MERCILON 28'S.",
+            "profit": 21
+        },
+        {
+            "want": "250",
+            "name": "MARVELON 21'S.",
+            "profit": 21.5
+        },
+        {
+            "want": "250",
+            "name": "MARVELON 28'S.",
+            "profit": 21.5
+        },
+        {
+            "want": "120",
+            "name": "MINNY 21'S.",
+            "profit": 13.5
+        },
+        {
+            "want": "120",
+            "name": "MINNY 28'S.",
+            "profit": 13.5
+        },
+        {
+            "want": "290",
+            "name": "HERZ 28'S.",
+            "profit": 35
+        },
+        {
+            "want": "273",
+            "name": "SYNFONIA 28'S.",
+            "profit": 27
+        },
+        {
+            "want": "490",
+            "name": "YAZ 28'S.",
+            "profit": 34.26
+        },
+        {
+            "want": "390",
+            "name": "MINIDOZ 28'S.",
+            "profit": 28.5
+        },
+        {
+            "want": "120",
+            "name": "Minoz",
+            "profit": 29.5
+        },
+        {
+            "want": "350",
+            "name": "DIORA 28'S.",
+            "profit": 15
+        },
+        {
+            "want": "350",
+            "name": "DIORA 21'S.",
+            "profit": 15
+        },
+        {
+            "want": "180",
+            "name": "R-DEN 28'S.",
+            "profit": 14.25
+        },
+        {
+            "want": "120",
+            "name": "ANNA 28'S.",
+            "profit": 7
+        },
+        {
+            "want": "120",
+            "name": "ANNIE 21'S.",
+            "profit": 20
+        },
+        {
+            "want": "180",
+            "name": "ยาคุม DAFNE 35 (21's)",
+            "profit": 21.5
+        },
+        {
+            "want": "120",
+            "name": "PREME 21'S.",
+            "profit": 19.5
+        },
+        {
+            "want": "120",
+            "name": "PREME 28'S.",
+            "profit": 19.5
+        },
+        {
+            "want": "250",
+            "name": "BERIZ 21'S.",
+            "profit": 25
+        },
+        {
+            "want": "180",
+            "name": "DIANE 21'S.",
+            "profit": 29
+        },
+        {
+            "want": "120",
+            "name": "SUCEE 28'S.",
+            "profit": 17.5
+        },
+        {
+            "want": "120",
+            "name": "SUCEE 21'S.",
+            "profit": 17.5
+        },
+        {
+            "want": "180",
+            "name": "OC-35 21'S.",
+            "profit": 25.25
+        },
+        {
+            "want": "290",
+            "name": "BELARA 21'S.",
+            "profit": 35
+        },
+        {
+            "want": "120",
+            "name": "CYCLO-PROGENOVA 21'S.",
+            "profit": 27
+        },
+        {
+            "want": "490",
+            "name": "SLINDA 28'S.",
+            "profit": 30
+        },
+        {
+            "want": "350",
+            "name": "CERAZETTE 28'S.",
+            "profit": 37
+        },
+        {
+            "want": "250",
+            "name": "EXLUTON 28'S.",
+            "profit": 67.75
+        },
+        {
+            "want": "250",
+            "name": "PRIMOLUT-N 5MG.15'S.",
+            "profit": 31.25
+        },
+        {
+            "want": "120",
+            "name": "PINRONE 5MG.10'S.",
+            "profit": 28.5
+        },
+        {
+            "want": "250",
+            "name": "TESTOS 40MG.10'S",
+            "profit": 316
+        },
+        {
+            "want": "290",
+            "name": "NEO-PENOTRAN FORTE 7'S.",
+            "profit": 63.3
+        },
+        {
+            "want": "100",
+            "name": "CANESTEN VT.0.5G.1'S.",
+            "profit": 60.18
+        },
+        {
+            "want": "250",
+            "name": "CANDINOX 100MG.6'S.",
+            "profit": 22.2
+        },
+        {
+            "want": "120",
+            "name": "CANDINOX 500MG.1'S.",
+            "profit": 17.5
+        },
+        {
+            "want": "120",
+            "name": "GYNECON VAGINAL TAB 5'S",
+            "profit": 16.5
+        },
+        {
+            "want": "350",
+            "name": "BALANCE ACTIV VAGINAL GEL 7หลอด",
+            "profit": 72.17
+        },
+        {
+            "want": "350",
+            "name": "CANESBALANCE VAGINAL GEL 5ML.7หลอด",
+            "profit": 159
+        },
+        {
+            "want": "40",
+            "name": "ยาแก้ไออาปาเช่ (สูตรดั้งเดิม) 60มล.",
+            "profit": 7.5
+        },
+        {
+            "want": "40",
+            "name": "ยาแก้ไออาปาเช่ (สูตรมะขามป้อม) 60มล",
+            "profit": 7.25
+        },
+        {
+            "want": "50",
+            "name": "ยาน้ำแก้ไอยูอีคอฟ ผสมมะขามป้อม 120ซีซี.",
+            "profit": 12.5
+        },
+        {
+            "want": "50",
+            "name": "ยาน้ำแก้ไอยูอีคอฟ ซีดี ผสมมะขามป้อม 120ซีซี.(กลิ่นน้ำผึ้งผสมเลมอน)",
+            "profit": 16
+        },
+        {
+            "want": "60",
+            "name": "ยาน้ำแก้ไอยูอีคอฟ โอเอส ผสมมะขามป้อม (สูตรไม่มีน้ำตาล) 120ซีซี.",
+            "profit": 12.75
+        },
+        {
+            "want": "180",
+            "name": "TYLENOL 500MG.100'S.",
+            "profit": 30
+        },
+        {
+            "want": "120",
+            "name": "SARA 500MG.(เม็ดรี) 100'S.",
+            "profit": 24
+        },
+        {
+            "want": "90",
+            "name": "TYLENOL 500MG.50'S.",
+            "profit": 22
+        },
+        {
+            "want": "60",
+            "name": "SARA 500MG.(เม็ดกลม) 50'S.",
+            "profit": 19.5
+        },
+        {
+            "want": "เปลี่นราคา",
+            "name": "KOOLFEVER FOR CHILDREN (สำหรับเด็กโต) 6ชิ้น",
+            "profit": 40.459
+        },
+        {
+            "want": "เปลี่นราคา",
+            "name": "KOOLFEVER FOR ADULTS (สำหรับผู้ใหญ่) 6ชิ้น",
+            "profit": 56.05
+        },
+        {
+            "want": "เปลี่นราคา",
+            "name": "KOOLFEVER FOR BABY (สำหรับเด็กเล็ก) 6ชิ้น",
+            "profit": 49.45
+        },
+        {
+            "want": "40",
+            "name": "ยาน้ำแก้ไอมะแว้งตราไอยรา (สีขาว) 60มล.",
+            "profit": 13.25
+        },
+        {
+            "want": "เปลี่นราคา",
+            "name": "ยาน้ำแก้ไอมะขามป้อมตราไอยรา (สีเขียว) 60มล.",
+            "profit": 10
+        },
+        {
+            "want": "เปลี่นราคา",
+            "name": "ยาน้ำแก้ไอมะแว้งตราไอยรา (สีแดง)",
+            "profit": 10
+        },
+        {
+            "want": "15",
+            "name": "MYPARA 12'S.",
+            "profit": 274
+        },
+        {
+            "want": "120",
+            "name": "BAKAMOL 500MG.100'S.",
+            "profit": 62
+        },
+        {
+            "want": "120",
+            "name": "BERAMOL 500MG.(เม็ดรี-สีขาว) 100'S.",
+            "profit": 22
+        },
+        {
+            "want": "180",
+            "name": "3M NEXCARE COLD HOT PACK (10x25CM.)",
+            "profit": 98.82
+        },
+        {
+            "want": "120",
+            "name": "CEMOL 500MG.(สีขาวกลม) 100'S.",
+            "profit": 10.5
+        },
+        {
+            "want": "120",
+            "name": "PARACAP 100'S.",
+            "profit": 17.25
+        },
+        {
+            "want": "100",
+            "name": "LONGTEMP THERMOMETER",
+            "profit": 17.5
+        },
+        {
+            "want": "60",
+            "name": "CEMOL 500MG.(สีขาวกลม) 50'S.",
+            "profit": 9
+        },
+        {
+            "want": "40",
+            "name": "ยาธาตุน้ำขาวกระต่ายบิน-ขวดเล็ก 50มล.",
+            "profit": 5.5
+        },
+        {
+            "want": "90",
+            "name": "ยาธาตุน้ำขาวกระต่ายบิน-ขวดใหญ่",
+            "profit": 13
+        },
+        {
+            "want": "120",
+            "name": "ANTACIL GEL 450ML",
+            "profit": 24
+        },
+        {
+            "want": "180",
+            "name": "ยาธาตุน้ำขาวกระต่ายบิน-ขวดใหญ่ 450มล.",
+            "profit": 25
+        },
+        {
+            "want": "90",
+            "name": "BELCID SUSP.240ML",
+            "profit": 14.5
+        },
+        {
+            "want": "60",
+            "name": "ยาธาตุน้ำขาวไทยนคร 200ML.",
+            "profit": 18.5
+        },
+        {
+            "want": "80",
+            "name": "ANTACIL GEL 240ML",
+            "profit": 15
+        },
+        {
+            "want": "40",
+            "name": "ยาน้ำแก้ไอโยคี (1997) 60ซีซี.",
+            "profit": 8.75
+        },
+        {
+            "want": "90",
+            "name": "เอี๊ยะปอห่อ 120cc",
+            "profit": 119.9
+        },
+        {
+            "want": "60",
+            "name": "ยาน้ำแก้ไอตราclover herbs",
+            "profit": 45
+        },
+        {
+            "want": "40",
+            "name": "ยาแก้ไอน้ำดำตราเสือดาว-เล็ก 60มล.",
+            "profit": 7
+        },
+        {
+            "want": "60",
+            "name": "ยาแก้ไอน้ำดำตราเสือดาว-ใหญ่ 120มล",
+            "profit": 10.3333
+        },
+        {
+            "want": "เปลี่นราคา",
+            "name": "ยาแก้ไอปี่แปกอ-เล็ก 75มล.",
+            "profit": 11
+        },
+        {
+            "want": "80",
+            "name": "ยาแก้ไอน้ำดำตราเสือดาว-จัมโบ้ 180มล.",
+            "profit": 15.75
+        },
+        {
+            "want": "40",
+            "name": "ยาแก้ไอตราแอนดร็อกซิล (KMP) 60ซีซี.",
+            "profit": 43.9
+        },
+        {
+            "want": "60",
+            "name": "อภัยภูเบศร-ยาแก้ไอผสมมะขามป้อม 120มล.",
+            "profit": 11.5
+        },
+        {
+            "want": "50",
+            "name": "PANADOL ACTIFAST 500MG.10'S.",
+            "profit": 19.25
+        },
+        {
+            "want": "50",
+            "name": "TYLENOL 8HR.650MG.10'S.",
+            "profit": 10
+        },
+        {
+            "want": "120",
+            "name": "MYMOL 500MG.(สีฟ้า-ขาว) 100'S.",
+            "profit": 15
+        },
+        {
+            "want": "120",
+            "name": "HAPPY NOZ KIDS สติ๊กเกอร์หัวหอม (สีชมพู) 6ซอง",
+            "profit": 28.5
+        },
+        {
+            "want": "120",
+            "name": "HAPPY NOZ KIDS สติ๊กเกอร์หัวหอม (สีเหลือง) 6ซอง",
+            "profit": 28.5
+        },
+        {
+            "want": "180",
+            "name": "ยาแก้ไอปี่แปกอ-กลาง 150มล.",
+            "profit": 31
+        },
+        {
+            "want": "120",
+            "name": "HAPPY NOZ KIDS สติ๊กเกอร์หัวหอม (สีส้ม) 6ซอง",
+            "profit": 28.5
+        },
+        {
+            "want": "120",
+            "name": "HAPPY NOZ KIDS สติ๊กเกอร์หัวหอม (สีม่วง) 6ซอง",
+            "profit": 29
+        },
+        {
+            "want": "120",
+            "name": "HAPPY NOZ KIDS สติ๊กเกอร์หัวหอม (สีเขียว) 6ชิ้น",
+            "profit": 28.5
+        },
+        {
+            "want": "40",
+            "name": "อภัยภูเบศร-ยาแก้ไอผสมมะขามป้อม 60มล.",
+            "profit": 7
+        },
+        {
+            "want": "15",
+            "name": "MYMOL 500MG.10'S.",
+            "profit": 9.9
+        }
+    ],
+    "Chronic": [
+        {
+            "want": "250",
+            "name": "RETEN FIVE SPRAY 30ML.",
+            "profit": 61
+        },
+        {
+            "want": "180",
+            "name": "FIRIDE 1MG.10'S.",
+            "profit": 110
+        },
+        {
+            "want": "490",
+            "name": "HARIFIN 1 MG 30'S",
+            "profit": 190
+        },
+        {
+            "want": "20",
+            "name": "SIAMFORMET 500MG.10'S.",
+            "profit": 11.44
+        },
+        {
+            "want": "30",
+            "name": "GPO AMBES 10MG 10'S",
+            "profit": 9.6
+        },
+        {
+            "want": "20",
+            "name": "GPO AMBES 5MG 10'S",
+            "profit": 9
+        },
+        {
+            "want": "15",
+            "name": "GPO AMITRIPTYLINE HCL 25MG",
+            "profit": 20
+        },
+        {
+            "want": "15",
+            "name": "FOLIC 5MG.10'S.",
+            "profit": 11.5
+        },
+        {
+            "want": "30",
+            "name": "TEMPRA COOLING PATCH 2'S",
+            "profit": 13.4
+        },
+        {
+            "want": "100",
+            "name": "KOOLFEVER FOR BABY (สำหรับเด็กเล็ก) 6ชิ้น",
+            "profit": 49.45
+        },
+        {
+            "want": "100",
+            "name": "KOOLFEVER FOR CHILDREN (สำหรับเด็กโต) 6ชิ้น",
+            "profit": 40.459
+        },
+        {
+            "want": "100",
+            "name": "KOOLFEVER FOR ADULTS (สำหรับผู้ใหญ่) 6ชิ้น",
+            "profit": 56.05
+        },
+        {
+            "want": "40",
+            "name": "KLEAN & KARE จุกล้างจมูก 2ชิ้น",
+            "profit": 11
+        },
+        {
+            "want": "30",
+            "name": "KLEAN & KARE จุกล้างจมูก (นุ๊มนุ่ม) 1ชิ้น",
+            "profit": 11
+        },
+        {
+            "want": "40",
+            "name": "KLEANASAL จุกล้างจมูก 2ชิ้น",
+            "profit": 30
+        },
+        {
+            "want": "190",
+            "name": "HERBAL NIGHT TIME SPRAY 15ML.",
+            "profit": 33
+        },
+        {
+            "want": "150",
+            "name": "HERBAL EXTRA FRESH SPRAY 15ML.",
+            "profit": 33
+        },
+        {
+            "want": "50",
+            "name": "QUIKWIPE แผ่นทำความสะอาดแว่น 10 ซอง",
+            "profit": 20
+        },
+        {
+            "want": "60",
+            "name": "KLEAN & KARE N.S.S.(จุกแหลม) 1000ML.",
+            "profit": 19.25
+        },
+        {
+            "want": "40",
+            "name": "KLEAN & KARE N.S.S.(จุกแหลม) 500ML.",
+            "profit": 14.5
+        },
+        {
+            "want": "20",
+            "name": "KLEAN & KARE N.S.S.(จุกแหลม) 100ML.",
+            "profit": 10
+        },
+        {
+            "want": "60",
+            "name": "NSS 0.9%FOR IRRIGATION 1000ML.",
+            "profit": 49.9
+        },
+        {
+            "want": "60",
+            "name": "NSS ดัมเบล ป้ายฟ้า GHP 1000 ml. IRRIGATE",
+            "profit": 13.25
+        },
+        {
+            "want": "450",
+            "name": "FUTURO KNEE (เข่า)(S)",
+            "profit": 95
+        },
+        {
+            "want": "450",
+            "name": "FUTURO KNEE (เข่า)(M)",
+            "profit": 95
+        },
+        {
+            "want": "450",
+            "name": "FUTURO KNEE (เข่า)(XL)",
+            "profit": 95
+        },
+        {
+            "want": "350",
+            "name": "FUTURO ANKLE (ข้อเท้า-รุ่นสวม)(S)",
+            "profit": 95
+        },
+        {
+            "want": "350",
+            "name": "FUTURO ANKLE (ข้อเท้า-รุ่นสวม)(M)",
+            "profit": 95
+        },
+        {
+            "want": "350",
+            "name": "FUTURO ANKLE (ข้อเท้า-รุ่นสวม)(L)",
+            "profit": 95
+        },
+        {
+            "want": "50",
+            "name": "TYLENOL 500MG.10'S.",
+            "profit": 3.5
+        },
+        {
+            "want": "15",
+            "name": "SARA 500MG.(ชนิดแผง-เม็ดกลม) 10'S.",
+            "profit": 3.3625
+        },
+        {
+            "want": "15",
+            "name": "SARA 500MG.(ชนิดแผง-เม็ดรี) 10'S.",
+            "profit": 3.1
+        },
+        {
+            "want": "120",
+            "name": ": CEMOL 500MG.(สีขาวกลม) 100'S.",
+            "profit": 10.5
+        },
+        {
+            "want": "120",
+            "name": "PARACAP 100'S.",
+            "profit": 17.25
+        },
+        {
+            "want": "180",
+            "name": "POLIDENT ครีมติดฟันปลอม (เฟรชมินท์) 60G.",
+            "profit": 148.81
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHENIRAMINE 2MG BL.HUA 10'S",
+            "profit": 7.2
+        },
+        {
+            "want": "60",
+            "name": "CALAMINE ศิริบัญชา 120CC",
+            "profit": 6
+        },
+        {
+            "want": "40",
+            "name": "CALAMINE ศิริบัญชา 60CC",
+            "profit": 7.5
+        },
+        {
+            "want": "40",
+            "name": "CALAMINE-LP.60ML",
+            "profit": 7.5
+        },
+        {
+            "want": "100",
+            "name": "Mybacin บ้วนปาก ฟ้าทะลายโจร",
+            "profit": 24.9
+        },
+        {
+            "want": "60",
+            "name": "CALAMINE-LP.120ML",
+            "profit": 32
+        },
+        {
+            "want": "90",
+            "name": "CADRAMINE-V LOTION 120ML.",
+            "profit": 13.5
+        },
+        {
+            "want": "100",
+            "name": "3M NEXCARE แผ่นซับสิวรุ่นใสขอบบาง 12ชิ้น",
+            "profit": 95
+        },
+        {
+            "want": "150",
+            "name": "3M NEXCARE แผ่นซับสิวรุ่นบาง 30ชิ้น",
+            "profit": 34.25
+        },
+        {
+            "want": "250",
+            "name": "Pigeon ที่ดูดน้ำมูกเด็ก",
+            "profit": 93.6709
+        },
+        {
+            "want": "120",
+            "name": "DENTISTE แปรงทำความสะอาดลิ้น (GERMANY)",
+            "profit": 41.6
+        },
+        {
+            "want": "120",
+            "name": "Dentiste ortho pro 1's",
+            "profit": 119.9
+        },
+        {
+            "want": "180",
+            "name": "Dentiste Ergo Travel Set เซ็ตแปรงแห้ง",
+            "profit": 17.38
+        },
+        {
+            "want": "100",
+            "name": "DENTISTE ไหมขัดฟัน 15M",
+            "profit": 12.94
+        },
+        {
+            "want": "180",
+            "name": "DENTISTE ไหมขัดฟันชนิดมีก้านPICK 40ชิ้น",
+            "profit": 18.6
+        },
+        {
+            "want": "120",
+            "name": "DENTISTE DENTAL FLOSS+PICK ไหมขัดฟัน เส้นแบน 20 ชิ้น",
+            "profit": 16.96
+        },
+        {
+            "want": "190",
+            "name": "KLEAN & KARE NASAL KIT",
+            "profit": 14.5
+        },
+        {
+            "want": "40",
+            "name": "mask kn95 มีวาว์ล",
+            "profit": 14
+        }
+    ],
+    "EENT": [
+        {
+            "want": "190",
+            "name": "NASOL SPRAY 15ML.",
+            "profit": 23.58
+        },
+        {
+            "want": "190",
+            "name": "ILIADIN SPRAY 0.05%(ชนิดสเปรย์สำหรับผู้ใหญ่) 10ML.",
+            "profit": 46
+        },
+        {
+            "want": "190",
+            "name": "OTRIVIN CHILD NASAL SPRAY 0.05%10ML.(สำหรับเด็ก)",
+            "profit": 36.75
+        },
+        {
+            "want": "190",
+            "name": "ILIADIN DROP 0.025%(ชนิดหยดสำหรับเด็ก) 10ML.",
+            "profit": 28.75
+        },
+        {
+            "want": "290",
+            "name": "SINOMARIN MINI SPRAY 30ML.",
+            "profit": 83.93
+        },
+        {
+            "want": "290",
+            "name": "AQUA MARIS CLASSIC 30ML.",
+            "profit": 120.8
+        },
+        {
+            "want": "290",
+            "name": "AQUA MARIS PROTECTO 20ML.",
+            "profit": 170.54
+        },
+        {
+            "want": "290",
+            "name": "AQUA MARIS STRONG 30ML.",
+            "profit": 94.45
+        },
+        {
+            "want": "290",
+            "name": "AQUA MARIS BABY 50ML.",
+            "profit": 85.17
+        },
+        {
+            "want": "350",
+            "name": "BUSONASE 64MCG./D.6ML.",
+            "profit": 58
+        },
+        {
+            "want": "412",
+            "name": "AVAMYS NASAL SPRAY",
+            "profit": 158
+        },
+        {
+            "want": "450",
+            "name": "RHINOCORT AQUA 64MCG.120 SPRAYS 8.43ML.",
+            "profit": 92
+        },
+        {
+            "want": "190",
+            "name": "AEROTAMOL 100MCG.200D.",
+            "profit": 36
+        },
+        {
+            "want": "100",
+            "name": "OPSIL TEARS E/D.10ML.",
+            "profit": 23.8
+        },
+        {
+            "want": "190",
+            "name": "NATEAR E/D.0.3%10ML.",
+            "profit": 28
+        },
+        {
+            "want": "190",
+            "name": "MILTEAR MD 0.3%10ML.",
+            "profit": 33
+        },
+        {
+            "want": "250",
+            "name": "SYSTANE ULTRA E/D.10ML.",
+            "profit": 61
+        },
+        {
+            "want": "190",
+            "name": "HIALID E/D.0.1%5ML.",
+            "profit": 47
+        },
+        {
+            "want": "190",
+            "name": "VIDISIC EYE GEL 10G.",
+            "profit": 59
+        },
+        {
+            "want": "350",
+            "name": "OCUSOFT LID SCRUB FOAM 50ML.",
+            "profit": 114.67
+        },
+        {
+            "want": "190",
+            "name": "DEWAX 15ML.",
+            "profit": 27
+        },
+        {
+            "want": "190",
+            "name": "EARWAX 5MG.15ML.",
+            "profit": 26
+        },
+        {
+            "want": "190",
+            "name": "CANDIX 15ML.",
+            "profit": 11.5
+        },
+        {
+            "want": "190",
+            "name": "NATEAR UD.0.8ML.7หลอด",
+            "profit": 27.5
+        },
+        {
+            "want": "490",
+            "name": "NATEAR UD.0.8ML.28หลอด",
+            "profit": 79
+        },
+        {
+            "want": "390",
+            "name": "TEARS NAT.FREE 0.8ML.32หลอด",
+            "profit": 79
+        },
+        {
+            "want": "390",
+            "name": "MILTEAR 1ML.30หลอด",
+            "profit": 50
+        },
+        {
+            "want": "218",
+            "name": "MELLUTEAR E/D.0.4ML.30หลอด",
+            "profit": 90
+        },
+        {
+            "want": "490",
+            "name": "SYSTANE ULTRA-UD. 0.5ML.28หลอด",
+            "profit": 80
+        },
+        {
+            "want": "390",
+            "name": "VISLUBE E/D.0.45ML.20หลอด",
+            "profit": 104.53
+        },
+        {
+            "want": "60",
+            "name": "FRESH CLEAR ยาล้างตา 5x20ML.",
+            "profit": 18.75
+        },
+        {
+            "want": "90",
+            "name": "FRESH CLEAR ยาล้างตา 10x20ML.",
+            "profit": 58.75
+        },
+        {
+            "want": "60",
+            "name": "OPPLIN STERILE EYE WASH 100ML.",
+            "profit": 14
+        },
+        {
+            "want": "60",
+            "name": "OPSAR ยาล้างตา 100ML.",
+            "profit": 11.04
+        },
+        {
+            "want": "60",
+            "name": "ยาล้างตา OP-IZE 110ML.",
+            "profit": 16.9
+        },
+        {
+            "want": "120",
+            "name": "SENSI PLUS 100ML.",
+            "profit": 18
+        },
+        {
+            "want": "120",
+            "name": "RENU FRESH 120ML.",
+            "profit": 31
+        },
+        {
+            "want": "290",
+            "name": "RENU FRESH 355ML.+แถม 60ML.",
+            "profit": 71
+        },
+        {
+            "want": "280",
+            "name": "OPTI-FREE REPLENISH 300ML.",
+            "profit": 45.5
+        },
+        {
+            "want": "75",
+            "name": "ALLERGIS E/D.5ML.",
+            "profit": 18.55
+        },
+        {
+            "want": "75",
+            "name": "ALLERGIS E/D.5ML.",
+            "profit": 21.45
+        },
+        {
+            "want": "70",
+            "name": "HISTA-OPH E/D.5ML.",
+            "profit": 13
+        },
+        {
+            "want": "120",
+            "name": "ANTAZALLERGE E/D.10ML.",
+            "profit": 23.62
+        },
+        {
+            "want": "90",
+            "name": "OPSIL-A E/D.10ML.",
+            "profit": 17
+        },
+        {
+            "want": "85",
+            "name": "MILLIOPH E/D.10ML.",
+            "profit": 17.25
+        },
+        {
+            "want": "130",
+            "name": "DEXOPH E/E.4ML.",
+            "profit": 14
+        },
+        {
+            "want": "110",
+            "name": "Archidex 5 ml",
+            "profit": 18
+        },
+        {
+            "want": "180",
+            "name": "NAPHCON-A 15ML.",
+            "profit": 33
+        },
+        {
+            "want": "150",
+            "name": "TOBREX E/D.0.3%5ML.",
+            "profit": 48
+        },
+        {
+            "want": "250",
+            "name": "GLAUCO-OPH 0.5%5ML.",
+            "profit": 40
+        },
+        {
+            "want": "75",
+            "name": "ALLERGIS E/D.5ML.",
+            "profit": 18.55
+        },
+        {
+            "want": "110",
+            "name": "POLY-OPH E/D.5ML.",
+            "profit": 21
+        },
+        {
+            "want": "220",
+            "name": "CRAVIT E/D.0.5%5ML.",
+            "profit": 54
+        },
+        {
+            "want": "24",
+            "name": "GENTA-OPH E/D.5ML.",
+            "profit": 43.9
+        },
+        {
+            "want": "80",
+            "name": "TERRAMYCIN E/O.ป้ายตา3.5G.(รุ่นแพ็คหมอ)",
+            "profit": 12
+        },
+        {
+            "want": "75",
+            "name": "ALLERGIS E/D.5ML.",
+            "profit": 18.55
+        },
+        {
+            "want": "130",
+            "name": "FLANIL CREAM 60G.",
+            "profit": 19
+        },
+        {
+            "want": "190",
+            "name": "FLANIL CREAM 100G.",
+            "profit": 26
+        },
+        {
+            "want": "80",
+            "name": "FLANIL CREAM 30G.",
+            "profit": 11
+        },
+        {
+            "want": "190",
+            "name": "COUNTERPAIN CREAM 120G.",
+            "profit": 37.36
+        },
+        {
+            "want": "100",
+            "name": "NEOTICA BALM 60G.",
+            "profit": 29
+        },
+        {
+            "want": "150",
+            "name": "NEOTICA BALM 100G.",
+            "profit": 28.5
+        },
+        {
+            "want": "120",
+            "name": "TIGER BALM LOTION 80ML.",
+            "profit": 53
+        },
+        {
+            "want": "70",
+            "name": "COUNTERPAIN CREAM 30G.",
+            "profit": 13.25
+        },
+        {
+            "want": "120",
+            "name": "COUNTERPAIN CREAM 60G.",
+            "profit": 20
+        },
+        {
+            "want": "110",
+            "name": "TIGER BALM NECK & SHOULDER (สูตรร้อน) 50G.",
+            "profit": 49.7
+        },
+        {
+            "want": "150",
+            "name": "AMMELTZ YOKO YOKO 82ML.",
+            "profit": 56
+        },
+        {
+            "want": "130",
+            "name": "CAPSIKA GEL 0.0125%35G",
+            "profit": 23
+        },
+        {
+            "want": "120",
+            "name": "kressen",
+            "profit": 60
+        },
+        {
+            "want": "280",
+            "name": "PERSKINDOL CLASSIC SPRAY 150ML.",
+            "profit": 58
+        },
+        {
+            "want": "90",
+            "name": "M-CIN SPRAY 50ML.",
+            "profit": 31.67
+        },
+        {
+            "want": "350",
+            "name": "น้ำมันยูคาลิปตัส BOSISTO'S OIL ชนิดสเปรย์ 300ML",
+            "profit": 78
+        },
+        {
+            "want": "320",
+            "name": "PERSKINDOL CLASSIC GEL 100ML.",
+            "profit": 65
+        },
+        {
+            "want": "90",
+            "name": "AMMELTZ YOKO YOKO 48ML.",
+            "profit": 41
+        },
+        {
+            "want": "250",
+            "name": "POLAR SPRAY 280ML.",
+            "profit": 65
+        },
+        {
+            "want": "120",
+            "name": "POLAR SPRAY 80ML.",
+            "profit": 40
+        },
+        {
+            "want": "180",
+            "name": "น้ำมันยูคาลิปตัส BOSISTO'S SPRAY 150ML.",
+            "profit": 60
+        },
+        {
+            "want": "100",
+            "name": "น้ำมันยูคาลิปตัส BOSISTO'S OIL 28ML.",
+            "profit": 28
+        },
+        {
+            "want": "45",
+            "name": "น้ำมันยูคาลิปตัสตราจิงโจ้ 8.5มล.",
+            "profit": 11
+        },
+        {
+            "want": "50",
+            "name": "น้ำมันยูคาลิปตัส BOSISTO'S OIL 8.5ML.",
+            "profit": 13
+        },
+        {
+            "want": "85",
+            "name": "น้ำมันมวย 120ซีซี.",
+            "profit": 28.84
+        },
+        {
+            "want": "50",
+            "name": "น้ำมันมวย 60ซีซี.",
+            "profit": 16.5
+        },
+        {
+            "want": "250",
+            "name": "SPEED KNEE SUPPORT (Free size)",
+            "profit": 66.6667
+        },
+        {
+            "want": "35",
+            "name": "SOFTIP สำลีก้าน6นิ้ว (M) 100อัน",
+            "profit": 20
+        },
+        {
+            "want": "40",
+            "name": "SOFTIP สำลีก้าน6นิ้ว (L) 100อัน",
+            "profit": 9.173
+        },
+        {
+            "want": "50",
+            "name": "TENSOPLAST พลาสเตอร์ผ้า",
+            "profit": 35.75
+        },
+        {
+            "want": "25",
+            "name": "tigerplast clear 19mm*56mm",
+            "profit": 20
+        },
+        {
+            "want": "25",
+            "name": "KLEANPORE เทปเยื่อกระดาษ 1/2นิ้วx10หลา",
+            "profit": 6.0833
+        },
+        {
+            "want": "40",
+            "name": "KLEANTRANS เทปใส 1นิ้วx10หลา",
+            "profit": 8.3333
+        },
+        {
+            "want": "35",
+            "name": "TIGERPLAST ซูปาร์ตี้ 8ชิ้น",
+            "profit": 13.4
+        },
+        {
+            "want": "60",
+            "name": "3M NEXCARE TRANSPORE เทปแต่งแผลชนิดใส 1นิ้วx10หลา",
+            "profit": 17.5
+        },
+        {
+            "want": "80",
+            "name": "3M NEXCARE COBAN เทปพันยืดหยุ่น ขนาด1นิ้วx5หลา",
+            "profit": 23
+        },
+        {
+            "want": "50",
+            "name": "3M NEXCARE MICROPORE 1นิ้วx10หลา",
+            "profit": 21.25
+        },
+        {
+            "want": "35",
+            "name": "KLEANPORE เทปเยื่อกระดาษ 1นิ้วx10หลา",
+            "profit": 7.9167
+        },
+        {
+            "want": "40",
+            "name": "3M NEXCARE TRANSPORE เทปแต่งแผลชนิดใส 1/2นิ้วx5หลา",
+            "profit": 7.92
+        },
+        {
+            "want": "35",
+            "name": "3M NEXCARE MICROPORE 1/2นิ้วx10หลา",
+            "profit": 11
+        },
+        {
+            "want": "25",
+            "name": "KLEANTRANS เทปใส 1/2นิ้วx10หลา",
+            "profit": 8.0833
+        },
+        {
+            "want": "15",
+            "name": "syringe 20 ml",
+            "profit": 0
+        },
+        {
+            "want": "10",
+            "name": "syringe 10 ml",
+            "profit": 0
+        },
+        {
+            "want": "8",
+            "name": "syringe 5 ml",
+            "profit": 0
+        },
+        {
+            "want": "6",
+            "name": "syringe 3 ml",
+            "profit": 0
+        },
+        {
+            "want": "5",
+            "name": "syringe 1 ml",
+            "profit": 0
+        },
+        {
+            "want": "180",
+            "name": "HASHI PLUS ชุดอุปกรณ์ล้างจมูก (สีฟ้า)",
+            "profit": 62
+        },
+        {
+            "want": "30",
+            "name": "แอลกอฮอล์70%ศิริบัญชา 60ซีซี.",
+            "profit": 4.1667
+        },
+        {
+            "want": "40",
+            "name": "KLEAN & KARE N.S.S.(จุกแหลม) 500ML.",
+            "profit": 14.5
+        },
+        {
+            "want": "50",
+            "name": "แอลกอฮอล์70%ศิริบัญชา 180ซีซี.",
+            "profit": 7.5
+        },
+        {
+            "want": "120",
+            "name": "HASHI เกลือล้างจมูก 30ซอง",
+            "profit": 27.75
+        },
+        {
+            "want": "120",
+            "name": "HASHI เกลือล้างจมูก สูตรอ่อนโยน 30ซอง",
+            "profit": 27.75
+        },
+        {
+            "want": "80",
+            "name": "แอลกอฮอล์70%ศิริบัญชา 450ซีซี.",
+            "profit": 17.75
+        },
+        {
+            "want": "85",
+            "name": "ALCOHOL LPSOFF 450ML.",
+            "profit": 14.25
+        },
+        {
+            "want": "20",
+            "name": "KLEAN & KARE N.S.S.(จุกแหลม) 100ML.",
+            "profit": 10
+        },
+        {
+            "want": "70",
+            "name": "HASHI น้ำเกลือหยอดจมูกสำหรับเด็ก สูตรGENTLE 4ML",
+            "profit": 27
+        },
+        {
+            "want": "30",
+            "name": "ALCOHOL LPSOFF 60ML.",
+            "profit": 8.4167
+        },
+        {
+            "want": "50",
+            "name": "ALCOHOL ALSOFF 180ML",
+            "profit": 9.6667
+        },
+        {
+            "want": "70",
+            "name": "HASHI น้ำเกลือหยอดจมูกสำหรับเด็ก สูตรMOIST 4ML",
+            "profit": 34
+        },
+        {
+            "want": "150",
+            "name": "STANDARD ARM SLING ผ้าคล้องแขน (M)",
+            "profit": 35
+        },
+        {
+            "want": "160",
+            "name": "STANDARD ARM SLING ผ้าคล้องแขน (L)",
+            "profit": 35
+        },
+        {
+            "want": "40",
+            "name": "LONGMED ผ้ายืดพันแผล 2\"x5หลา",
+            "profit": 5.4167
+        },
+        {
+            "want": "55",
+            "name": "KLEAN GAUZE ผ้าก๊อซ 4x4นิ้ว 10ชิ้น",
+            "profit": 5.65
+        },
+        {
+            "want": "70",
+            "name": "LONGMED ผ้ายืดพันแผล 4\"x5หลา",
+            "profit": 6.666
+        },
+        {
+            "want": "45",
+            "name": "KLEAN GAUZE ผ้าก๊อซ 3x3นิ้ว 10ชิ้น",
+            "profit": 5.15
+        },
+        {
+            "want": "190",
+            "name": "SMOOTH E NEW SKIN LIQUID PLASTER ฟิล์มเคลือบปิดแผล 4มล.",
+            "profit": 25.23
+        },
+        {
+            "want": "150",
+            "name": "BETADINE OINTMENT 50G.",
+            "profit": 42.25
+        },
+        {
+            "want": "60",
+            "name": "TIGERPLAST LEO POVIDONE 15ML.",
+            "profit": 11.5
+        },
+        {
+            "want": "180",
+            "name": "SOS PLUS SPORT TAPE เทปผ้าชนิดยืดหยุ่น 2นิ้วx10หลา",
+            "profit": 30
+        },
+        {
+            "want": "70",
+            "name": "TIGERPLAST LEO POVIDONE GEL 20G.",
+            "profit": 18.75
+        },
+        {
+            "want": "130",
+            "name": "LIQUIPLAST พลาสเตอร์ปิดแผลชนิดน้ำ 10G.",
+            "profit": 56
+        },
+        {
+            "want": "55",
+            "name": "LONGMED ผ้ายืดพันแผล 3\"x5หลา",
+            "profit": 5
+        },
+        {
+            "want": "65",
+            "name": "KTD ผ้ายืดพันเคล็ด 4นิ้วx5หลา",
+            "profit": 10.0833
+        },
+        {
+            "want": "50",
+            "name": "KTD ผ้ายืดพันเคล็ด 3นิ้วx5หลา",
+            "profit": 9.1667
+        },
+        {
+            "want": "95 THB",
+            "name": ": SOS PLUS SPORT TAPE เทปผ้าชนิดยืดหยุ่น 1นิ้วx10หลา",
+            "profit": 15
+        },
+        {
+            "want": "90",
+            "name": "POVIDINE 30ML.",
+            "profit": 12.9167
+        },
+        {
+            "want": "18",
+            "name": "SYRINGE NIPRO (หัวข้าง) 20ML.",
+            "profit": 4.4
+        },
+        {
+            "want": "12",
+            "name": "SYRINGE NIPRO 10ML.",
+            "profit": 4.12
+        },
+        {
+            "want": "35",
+            "name": "KLEAN GAUZE ผ้าก๊อซ 2x2นิ้ว 10ชิ้น",
+            "profit": 3.425
+        },
+        {
+            "want": "35",
+            "name": "SOFTIP สำลีก้าน6นิ้ว (M) 100อัน",
+            "profit": 20
+        },
+        {
+            "want": "45",
+            "name": "KTD2*2.2",
+            "profit": 20
+        }
+    ],
+    "เด็ก": [
+        {
+            "want": "50",
+            "name": "D-LIFE OMEGA-3 120ML.",
+            "profit": 20
+        },
+        {
+            "want": "130",
+            "name": "MAMARINE omega 3 + lysine",
+            "profit": 35
+        },
+        {
+            "want": "268",
+            "name": "MAMARINE KIDS BOOSTER BIO-C 120ML.",
+            "profit": 57
+        },
+        {
+            "want": "350",
+            "name": "ZITHROMAX POWDER 600MG.15ML.",
+            "profit": 70.55
+        },
+        {
+            "want": "150",
+            "name": "ONZET DRY SYRUP 15ml รสเชอรี่",
+            "profit": 40
+        },
+        {
+            "want": "180",
+            "name": "ONZET-P DRY SYRUP 15 ml รสสับปะรด",
+            "profit": 40
+        },
+        {
+            "want": "120",
+            "name": "MANMOX-250 (รสองุ่น) 60ML",
+            "profit": 18.5
+        },
+        {
+            "want": "90",
+            "name": "MANMOX-125 (รสองุ่น) 60ML.",
+            "profit": 16
+        },
+        {
+            "want": "120",
+            "name": "STARMOX 250MG.(กลิ่นส้ม) 60ML.",
+            "profit": 36
+        },
+        {
+            "want": "120",
+            "name": "STARMOX FORTE 250MG.(กลิ่นส้ม)",
+            "profit": 19.5
+        },
+        {
+            "want": "250",
+            "name": "FLEMING SUSP.457MG.70ML.",
+            "profit": 84
+        },
+        {
+            "want": "80",
+            "name": "NASOLIN P.L.60ML.",
+            "profit": 15
+        },
+        {
+            "want": "70",
+            "name": "SULIDINE-CP 60ML.",
+            "profit": 15.33
+        },
+        {
+            "want": "75",
+            "name": "CLINICOLD SYRUP 60ML.",
+            "profit": 23.55
+        },
+        {
+            "want": "120",
+            "name": "CLINICOLD SYRUP 120ML.",
+            "profit": 18
+        },
+        {
+            "want": "60",
+            "name": "MINRA (รสส้ม) 60ML.",
+            "profit": 15
+        },
+        {
+            "want": "60",
+            "name": "MINRA (รสองุ่น) 60ML.",
+            "profit": 15
+        },
+        {
+            "want": "70",
+            "name": "TIFFY SYRUP 60ML.",
+            "profit": 17.25
+        },
+        {
+            "want": "80",
+            "name": "RHINOTAPP SYRUP 60ML.",
+            "profit": 15
+        },
+        {
+            "want": "75",
+            "name": "ALLORA SYRUP 60ML.",
+            "profit": 54
+        },
+        {
+            "want": "75",
+            "name": "ALLORA SYRUP 60ML.",
+            "profit": 26
+        },
+        {
+            "want": "75",
+            "name": "ORMIST SYRUP 60ML.",
+            "profit": 13.5
+        },
+        {
+            "want": "80",
+            "name": "ALLERNIX SYRUP 60ML.",
+            "profit": 13.5
+        },
+        {
+            "want": "130",
+            "name": "TELFAST 6MG.60ML.",
+            "profit": 41
+        },
+        {
+            "want": "110",
+            "name": "CETTEC SYRUP 100ML",
+            "profit": 14.5
+        },
+        {
+            "want": "160",
+            "name": "AERIUS SYRUP 60ML.",
+            "profit": 48
+        },
+        {
+            "want": "80",
+            "name": "LORIUS SYRUP 60ML.",
+            "profit": 36.75
+        },
+        {
+            "want": "150",
+            "name": "ZARIUS SYRUP 60ML.",
+            "profit": 25
+        },
+        {
+            "want": "150",
+            "name": "DESTA SYRUP 60ML.",
+            "profit": 36
+        },
+        {
+            "want": "120",
+            "name": "ZYRTEC 75ML.",
+            "profit": 43
+        },
+        {
+            "want": "120",
+            "name": "NUROFEN FOR CHILDREN (รสส้ม)",
+            "profit": 41
+        },
+        {
+            "want": "100",
+            "name": "BUFLEX 60ML.(รุ่นใส่กล่อง)",
+            "profit": 37
+        },
+        {
+            "want": "110",
+            "name": "GOFEN LIQUIZ 60ML.",
+            "profit": 32
+        },
+        {
+            "want": "70",
+            "name": "PANADOL CHILDREN 6-12 (รสส้ม)",
+            "profit": 22.5
+        },
+        {
+            "want": "85",
+            "name": "TEMPRA FORTE (รสส้ม) 60ML.",
+            "profit": 23.46
+        },
+        {
+            "want": "60",
+            "name": "LOTEMP (รสสตรอเบอรี่) 60ML.",
+            "profit": 14.4
+        },
+        {
+            "want": "60",
+            "name": "LOTEMP KIDS 60ML.",
+            "profit": 14.4
+        },
+        {
+            "want": "70",
+            "name": "TEMPRA KIDS (รสส้ม) 60ML.",
+            "profit": 20.38
+        },
+        {
+            "want": "70",
+            "name": "TEMPRA KIDS (รสสตรอเบอรี่) 60ML.",
+            "profit": 17.9167
+        },
+        {
+            "want": "85",
+            "name": "TEMPRA FORTE (รสสตรอเบอรี่) 60ML",
+            "profit": 20.75
+        },
+        {
+            "want": "60",
+            "name": "SARA 250MG.(รสส้ม) 60ML.",
+            "profit": 19
+        },
+        {
+            "want": "50",
+            "name": "SARA 120MG.(รสทับทิม) 60ML.",
+            "profit": 26.625
+        },
+        {
+            "want": "55",
+            "name": "SARA 160MG.(รสองุ่น) 60ML.",
+            "profit": 14
+        },
+        {
+            "want": "50",
+            "name": "SARA 120MG.(รสสตรอเบอรี่) 60ML.",
+            "profit": 20.05
+        },
+        {
+            "want": "55",
+            "name": "SARA INFANT DROPS (รสองุ่น) 15ML.",
+            "profit": 21.8
+        },
+        {
+            "want": "180",
+            "name": "PROSPAN COUGH SYRUP 100ML.",
+            "profit": 71
+        },
+        {
+            "want": "80",
+            "name": "BRONAL SYRUP 60ML.",
+            "profit": 37.5
+        },
+        {
+            "want": "70",
+            "name": "ICORIN KIDS 60ML",
+            "profit": 15.83
+        },
+        {
+            "want": "70",
+            "name": "IVORIN SYRUP 60ML.",
+            "profit": 20
+        },
+        {
+            "want": "90",
+            "name": "AIR-X DROP 15ML.",
+            "profit": 20
+        },
+        {
+            "want": "70",
+            "name": "THROATSIL(ฟ้า) 250mg 60 ml",
+            "profit": 25
+        },
+        {
+            "want": "80",
+            "name": "SOLMAX KIDS 60ML.",
+            "profit": 24.75
+        },
+        {
+            "want": "90",
+            "name": "FLEMEX KIDS 60ML.",
+            "profit": 15
+        },
+        {
+            "want": "65",
+            "name": "THROATSIL(ชมพู) 100mg 60 ml",
+            "profit": 27
+        },
+        {
+            "want": "70",
+            "name": "I-COF KID 60ML.",
+            "profit": 25.25
+        },
+        {
+            "want": "75",
+            "name": "Dinocof 60 ml.",
+            "profit": 79.9
+        },
+        {
+            "want": "80",
+            "name": "MUCOLID SYRUP 60ML.",
+            "profit": 13.08
+        },
+        {
+            "want": "85",
+            "name": "MUCOLID JUNIOR (BLUEBERRY)",
+            "profit": 14.64
+        },
+        {
+            "want": "85",
+            "name": "MUCOLID JUNIOR (STRAWBERRY)",
+            "profit": 13.08
+        },
+        {
+            "want": "90",
+            "name": "SALMOL EXPECT.60ML.",
+            "profit": 14.5
+        },
+        {
+            "want": "180",
+            "name": "FLUIFORT SYRUP 120ML.",
+            "profit": 43
+        },
+        {
+            "want": "90",
+            "name": "Ambronc 60 ml",
+            "profit": 31.53
+        },
+        {
+            "want": "75",
+            "name": "BROMMY SYRUP 60ML รส STRAW",
+            "profit": 22
+        },
+        {
+            "want": "25",
+            "name": "Androxsil แผง",
+            "profit": 20
+        },
+        {
+            "want": "60",
+            "name": "ยาหวานชงน้ำเต้าทอง",
+            "profit": 16
+        },
+        {
+            "want": "40",
+            "name": "ยาแผ่นตราเสือ11ตัว",
+            "profit": 8.5
+        },
+        {
+            "want": "18 THB",
+            "name": "ยาผงตราเสือ11ตัว",
+            "profit": 5.25
+        },
+        {
+            "want": "120",
+            "name": "ยาฟ้าทะลายโจรอ้วยอัน (ชนิดแผง) 350มก.30'S.",
+            "profit": 15
+        },
+        {
+            "want": "145 THB",
+            "name": "อภัยภูเบศร-ยาแคปซูลขมิ้นชัน 400มก.60'S.",
+            "profit": 20
+        },
+        {
+            "want": "280 THB",
+            "name": "ยากษัยเส้นตราเด็กในพานทอง (ชนิดกล่อง)",
+            "profit": 7.75
+        },
+        {
+            "want": "60",
+            "name": "Androxsil 60 mg. 15's",
+            "profit": 249.9
+        },
+        {
+            "want": "125 THB",
+            "name": "อภัยภูเบศร-ยาแคปซูลฟ้าทะลายโจร 400มก.60'S.",
+            "profit": 21
+        },
+        {
+            "want": "100",
+            "name": "ยาใบมะขามแขกอ้วยอัน 100'S.",
+            "profit": 32.5
+        },
+        {
+            "want": "160 THB",
+            "name": "ยันฮี ฟ้าทะลาย 60's",
+            "profit": 17
+        },
+        {
+            "want": "120",
+            "name": "ยาขมิ้นชันอ้วยอัน 100'S.",
+            "profit": 32.5
+        },
+        {
+            "want": "95 THB",
+            "name": "ยาขมชนิดเม็ด ตราใบห่อ (70เม็ด)",
+            "profit": 8.0833
+        },
+        {
+            "want": "50",
+            "name": "อภัยภูเบศร-ยาแคปซูลฟ้าทะลายโจร 400มก.10'S.",
+            "profit": 33
+        },
+        {
+            "want": "80",
+            "name": "ยาน้ำเขากุยอ้วยอัน 240ซีซี.",
+            "profit": 15.5
+        },
+        {
+            "want": "60",
+            "name": "ยาขมชงน้ำเต้าทอง",
+            "profit": 19.25
+        },
+        {
+            "want": "40",
+            "name": "ยาหอมเทพจิตร-ขวดเล็ก",
+            "profit": 7
+        },
+        {
+            "want": "25",
+            "name": "ยาขมชนิดเม็ด ตราใบห่อ ซอง (12เม็ด",
+            "profit": 2.08
+        },
+        {
+            "want": "105 THB",
+            "name": "ยาขมเม็ดน้ำเต้าทอง",
+            "profit": 5.4
+        },
+        {
+            "want": "100",
+            "name": "ยาธาตุน้ำแดงวิทยาศรม 500มล.",
+            "profit": 13.75
+        },
+        {
+            "want": "70",
+            "name": "ยาธาตุน้ำแดงวิทยาศรม 300มล.",
+            "profit": 12.5
+        },
+        {
+            "want": "150",
+            "name": "ยาสตรีเบนโล-ใหญ่ 280ซีซี.",
+            "profit": 23.33
+        },
+        {
+            "want": "90",
+            "name": "ยาสตรีเบนโล-เล็ก 180ซีซี.",
+            "profit": 8.75
+        },
+        {
+            "want": "120",
+            "name": "ยาสตรีเพ็ญภาค-ใหญ่ 300มล.",
+            "profit": 12.5
+        },
+        {
+            "want": "250",
+            "name": "เซินโจวเจียวหนัง 6'S",
+            "profit": 70
+        },
+        {
+            "want": "120",
+            "name": "TARADA SPRAY 12ml",
+            "profit": 74
+        },
+        {
+            "want": "35",
+            "name": "แป้งโยคี (1997) 60กรัม",
+            "profit": 5.1667
+        },
+        {
+            "want": "150",
+            "name": "GK 24 4แคปซุล",
+            "profit": 61
+        },
+        {
+            "want": "60",
+            "name": "ยาหม่องตราลิง-ขวดพิเศษ 18กรัม",
+            "profit": 13.3333
+        },
+        {
+            "want": "70",
+            "name": "ยาหม่องสมุนไพรวังพรม (สูตรเสลดพังพอน) 50กรัม",
+            "profit": 20
+        },
+        {
+            "want": "50",
+            "name": "สิงห์คำขวดเเบนผงเหลือง 50 g.",
+            "profit": 23
+        },
+        {
+            "want": "45 THB",
+            "name": "ยาหม่องสมุนไพรวังพรม (สูตรไพล) 20กรัม",
+            "profit": 15
+        },
+        {
+            "want": "45 THB",
+            "name": "ยาหม่องสมุนไพรวังพรม (สูตรเสลดพังพอน) 20กรัม",
+            "profit": 15
+        }
+    ],
+    "แก้ปวด ลดอักเสบ": [
+        {
+            "want": "300",
+            "name": "SIAGRAN 4'S.",
+            "profit": 40.12
+        },
+        {
+            "want": "450",
+            "name": "RELPAX 40MG.2'S.",
+            "profit": 68
+        },
+        {
+            "want": "180",
+            "name": "CAFERGOT 100MG.10'S.",
+            "profit": 28
+        },
+        {
+            "want": "100",
+            "name": "TOFAGO 10'S.",
+            "profit": 17.25
+        },
+        {
+            "want": "150",
+            "name": "AVAMIGRAN 10'S.",
+            "profit": 18.5
+        },
+        {
+            "want": "350",
+            "name": "ARCOXIA 120MG.5'S.",
+            "profit": 91.37
+        },
+        {
+            "want": "300",
+            "name": "ARCOXIA 90MG.5'S.",
+            "profit": 51
+        },
+        {
+            "want": "175",
+            "name": "ARCOXIA 60MG.5'S.",
+            "profit": 45
+        },
+        {
+            "want": "180",
+            "name": "BIOCOXIB 90MG.5'S.",
+            "profit": 35
+        },
+        {
+            "want": "220",
+            "name": "BIOCOXIB 120MG.5'S.",
+            "profit": 115
+        },
+        {
+            "want": "350",
+            "name": "EXIB 90MG.10'S.",
+            "profit": 38
+        },
+        {
+            "want": "180",
+            "name": "Exib 90 mg. 5's",
+            "profit": 64
+        },
+        {
+            "want": "250",
+            "name": "CELXIB 200 10'S",
+            "profit": 63.1
+        },
+        {
+            "want": "100",
+            "name": "Arcona ไทย 60 mg.",
+            "profit": 45
+        },
+        {
+            "want": "120",
+            "name": "Arcona ไทย 90 mg.",
+            "profit": 53.67
+        },
+        {
+            "want": "320",
+            "name": "NACOXIB 90MG.10'S.",
+            "profit": 65
+        },
+        {
+            "want": "100",
+            "name": "TRISTAN 90MG.3'S.",
+            "profit": 42
+        },
+        {
+            "want": "100",
+            "name": "TRISTAN 90MG.3'S.",
+            "profit": 32
+        },
+        {
+            "want": "220",
+            "name": "ZOBREX 200MG.10'S.",
+            "profit": 36
+        },
+        {
+            "want": "220",
+            "name": "CYBEC 200MG. 10 CAP",
+            "profit": 35.86
+        },
+        {
+            "want": "250",
+            "name": "CELCOX 200MG.10'S.",
+            "profit": 30
+        },
+        {
+            "want": "400",
+            "name": "CELEBREX 400MG.5'S.",
+            "profit": 80
+        },
+        {
+            "want": "230",
+            "name": "CELEBREX 200MG.10'S",
+            "profit": 100
+        },
+        {
+            "want": "250",
+            "name": "CELXIB 200 10'S",
+            "profit": 63.1
+        },
+        {
+            "want": "50",
+            "name": "BUFLEX 400MG.10'S.",
+            "profit": 11.81
+        },
+        {
+            "want": "50",
+            "name": "PROBUFEN 400MG. 10'S.",
+            "profit": 19.3
+        },
+        {
+            "want": "60",
+            "name": "PROBUFEN 600MG. 10'S.",
+            "profit": 21.02
+        },
+        {
+            "want": "70",
+            "name": "SONAP FORTE 550MG.10'S.",
+            "profit": 25.7
+        },
+        {
+            "want": "50",
+            "name": "SOPROXEN 275MG.10'S.",
+            "profit": 12.7
+        },
+        {
+            "want": "50",
+            "name": "NAPROSIAN 250MG.10'S.",
+            "profit": 44
+        },
+        {
+            "want": "50",
+            "name": "NAPROFAZT 250MG 10'S",
+            "profit": 26.5
+        },
+        {
+            "want": "50",
+            "name": "IBUMAN-PLUS 10'S.",
+            "profit": 13.37
+        },
+        {
+            "want": "50",
+            "name": "GOFEN 400MG.10'S.",
+            "profit": 25
+        },
+        {
+            "want": "50",
+            "name": "IBUCAP 400MG.10'S.",
+            "profit": 46.2
+        },
+        {
+            "want": "50",
+            "name": "SOLUFEN 400MG.10'S.",
+            "profit": 37.5
+        },
+        {
+            "want": "50",
+            "name": "BRUSOFT 400MG.10'S.",
+            "profit": 36.67
+        },
+        {
+            "want": "60",
+            "name": "DIFELENE 50MG.10'S.",
+            "profit": 10.75
+        },
+        {
+            "want": "50",
+            "name": "DIFELENE 25MG.10'S.",
+            "profit": 9.81
+        },
+        {
+            "want": "80",
+            "name": "DIFAZT SOFTGEL 50MG.10'S.",
+            "profit": 25
+        },
+        {
+            "want": "60",
+            "name": "N-ZEN 50MG.10'S.",
+            "profit": 13
+        },
+        {
+            "want": "70",
+            "name": "PIRCAM 20MG.10'S.",
+            "profit": 17.4
+        },
+        {
+            "want": "70",
+            "name": "POX-109 10'S.",
+            "profit": 8
+        },
+        {
+            "want": "70",
+            "name": "NOXA 20MG.10'S.",
+            "profit": 11.2
+        },
+        {
+            "want": "80",
+            "name": "CAMBIC 7.5MG.",
+            "profit": 12.5
+        },
+        {
+            "want": "100",
+            "name": "CAMBIC 15MG.",
+            "profit": 20.2
+        },
+        {
+            "want": "35",
+            "name": "ทัมใจ",
+            "profit": 1.45
+        },
+        {
+            "want": "60",
+            "name": "BUFENAC FORTE 50MG 10'S",
+            "profit": 14.3
+        },
+        {
+            "want": "60",
+            "name": "VOLTA-T.M.50MG.10'S.",
+            "profit": 17.7
+        },
+        {
+            "want": "60",
+            "name": "DOFLAM 50MG.10'S.",
+            "profit": 48
+        },
+        {
+            "want": "100",
+            "name": "SUBSYDE-CR 100MG.10'S.",
+            "profit": 118
+        },
+        {
+            "want": "73",
+            "name": "MELOX 15MG.10'S.(รุ่น1กล่อง=1แผง)",
+            "profit": 37
+        },
+        {
+            "want": "150",
+            "name": "DIFELENE GEL 60G.",
+            "profit": 43
+        },
+        {
+            "want": "100",
+            "name": "DIFELENE GEL 30G.",
+            "profit": 17
+        },
+        {
+            "want": "250",
+            "name": "VOLTAREN EMULGEL 50G.",
+            "profit": 126.5
+        },
+        {
+            "want": "180",
+            "name": "VOLTAREN EMULGEL 25G.",
+            "profit": 50.33
+        },
+        {
+            "want": "50",
+            "name": "DOSANAC GEL 10G.",
+            "profit": 7
+        },
+        {
+            "want": "100",
+            "name": "COUNTERPAIN PLUS 25G.",
+            "profit": 36.79
+        },
+        {
+            "want": "200",
+            "name": "VOLCLONAC SPRAY 60ML.",
+            "profit": 47.86
+        },
+        {
+            "want": "240",
+            "name": "ELMETACIN COOL 50ML.",
+            "profit": 50
+        },
+        {
+            "want": "200",
+            "name": "UNIREN SPRAY 60ML.",
+            "profit": 50
+        },
+        {
+            "want": "120",
+            "name": "PONSTAN 500MG.10'S.",
+            "profit": 17.27
+        },
+        {
+            "want": "60",
+            "name": "MEFAMED 500MG.10'S.",
+            "profit": 14.44
+        },
+        {
+            "want": "25",
+            "name": "ANPUZZ 520MG.",
+            "profit": 26.75
+        },
+        {
+            "want": "70",
+            "name": "ESPENAL 50MG.10'S.",
+            "profit": 32.1
+        },
+        {
+            "want": "60",
+            "name": "spamus",
+            "profit": 19.5
+        },
+        {
+            "want": "40",
+            "name": "Corilax 10's ชมพูกลม",
+            "profit": 17.75
+        },
+        {
+            "want": "85",
+            "name": "NORGESIC 10'S.",
+            "profit": 28.28
+        },
+        {
+            "want": "9.5",
+            "name": "PAINPYRIN 10'S.",
+            "profit": 10.5
+        },
+        {
+            "want": "70",
+            "name": "BIOCALM 50MG.10'S.",
+            "profit": 19.56
+        },
+        {
+            "want": "70",
+            "name": "MERA 10'S.",
+            "profit": 23
+        },
+        {
+            "want": "75",
+            "name": "proctase -p",
+            "profit": 18.25
+        },
+        {
+            "want": "120",
+            "name": "LEFTOSE 30MG.10'S.",
+            "profit": 17
+        },
+        {
+            "want": "75",
+            "name": "SOS PLUS พลาสเตอร์สำหรับปิดหูด-ตาปลา 4ชิ้น",
+            "profit": 15
+        },
+        {
+            "want": "40",
+            "name": "SOS PLUS (E5) พลาสเตอร์ปิดตาสำหรับผู้ใหญ่ (5.8x8.3ซม.) 2ชิ้น",
+            "profit": 6.5
+        },
+        {
+            "want": "40",
+            "name": "TIGERPLAST (W1) พลาสเตอร์ใสกันน้ำ 60x70มม.3ชิ้น",
+            "profit": 16.5
+        },
+        {
+            "want": "40",
+            "name": "TIGERPLAST (W2) พลาสเตอร์ใสกันน้ำ 2ชิ้น",
+            "profit": 17.5
+        },
+        {
+            "want": "50",
+            "name": "TIGERPLAST (W3) พลาสเตอร์ใสกันน้ำ 80x100มม.2แผ่น",
+            "profit": 16.25
+        },
+        {
+            "want": "60",
+            "name": "TIGERPLAST (W4) พลาสเตอร์ใสกันน้ำ 100x120มม.2แผ่น",
+            "profit": 18.25
+        },
+        {
+            "want": "50",
+            "name": "TIGERPLAST (WS) ชนิดใสกันน้ำ 25x72มม.10ชิ้น",
+            "profit": 9.75
+        },
+        {
+            "want": "70",
+            "name": "TIGERPLAST (N1) ฟิล์มใสกันน้ำ 60x70มม.5ชิ้น",
+            "profit": 16.25
+        },
+        {
+            "want": "80",
+            "name": "TIGERPLAST (N2) ฟิล์มใสกันน้ำ 60x100มม.5แผ่น",
+            "profit": 20.5
+        },
+        {
+            "want": "100",
+            "name": "TIGERPLAST (N4) ฟิล์มใสกันน้ำ 100x120มม.5ชิ้น",
+            "profit": 20.25
+        },
+        {
+            "want": "100",
+            "name": "TIGERPLAST (N4) ฟิล์มใสกันน้ำ 100x120มม.5ชิ้น",
+            "profit": 20.25
+        },
+        {
+            "want": "50",
+            "name": "SOS PLUS (S1-B) ผ้าก๊อซปิดแผลแบบพร้อมใช้สีขาว (3x7ซม.) 10แผ่น",
+            "profit": 10
+        },
+        {
+            "want": "60",
+            "name": "SOS PLUS (S2) ผ้าก๊อซปิดแผลแบบพร้อมใช้ ขนาด6x7CM.5แผ่น",
+            "profit": 15
+        },
+        {
+            "want": "70",
+            "name": "SOS PLUS (S3) ผ้าก๊อซปิดแผลแบบพร้อมใช้ ขนาด6x10CM.4แผ่น",
+            "profit": 14
+        },
+        {
+            "want": "70",
+            "name": "SOS PLUS (S2x2) ผ้าก๊อซปิดแผลแบบพร้อมใช้ ขนาด8x8ซม.4แผ่น",
+            "profit": 20.25
+        },
+        {
+            "want": "80",
+            "name": "SOS PLUS (S3x3) ผ้าก๊อซปิดแผลแบบพร้อมใช้ ขนาด12x12ซม.3แผ่น",
+            "profit": 15
+        },
+        {
+            "want": "70",
+            "name": "SOS PLUS (S) ผ้าก๊อซปิดแผลแบบพร้อมใช้ ขนาด10x20CM.2แผ่น",
+            "profit": 22
+        },
+        {
+            "want": "100",
+            "name": "TIGERPLAST พลาสเตอร์กันรองเท้ากัด 9ชิ้น",
+            "profit": 15
+        },
+        {
+            "want": "80",
+            "name": "SOS PLUS (PU3x3) แผ่นฟิล์มใสกันน้ำ ขนาด7.5x7.5ซม.4แผ่น",
+            "profit": 25.75
+        },
+        {
+            "want": "50",
+            "name": "SOS PLUS (T2) พลาสเตอร์ใสกันน้ำ ขนาด6x7CM.3แผ่น",
+            "profit": 15
+        },
+        {
+            "want": "60",
+            "name": "SOS PLUS (T2x2) พลาสเตอร์ใสกันน้ำ ขนาด8x8CM.3แผ่น",
+            "profit": 15.25
+        },
+        {
+            "want": "70",
+            "name": "SOS PLUS (T3x3) พลาสเตอร์ใสกันน้ำ ขนาด12x12CM.2แผ่น",
+            "profit": 18
+        },
+        {
+            "want": "80",
+            "name": "SOS PLUS (T4) พลาสเตอร์ใสกันน้ำ ขนาด10x25CM.2แผ่น",
+            "profit": 39
+        },
+        {
+            "want": "120",
+            "name": "ซาโตรี่ ถุงมือยาง ชนิดมีแป้ง (S)",
+            "profit": 41.6
+        },
+        {
+            "want": "120",
+            "name": "ซาโตรี่ ถุงมือยาง ชนิดมีแป้ง (M)",
+            "profit": 41.6
+        },
+        {
+            "want": "120",
+            "name": "ซาโตรี่ ถุงมือยาง ชนิดมีแป้ง (L)",
+            "profit": 41.6
+        }
+    ],
+    "ATB": [
+        {
+            "want": "50",
+            "name": "ALBEN 200MG.2'S.",
+            "profit": 12.75
+        },
+        {
+            "want": "85",
+            "name": "TYSTATIN SUSP.12ML.",
+            "profit": 22.5
+        },
+        {
+            "want": "75",
+            "name": "GANO-500 10'S.",
+            "profit": 22
+        },
+        {
+            "want": "40",
+            "name": "TC-MYCIN 250MG.10'S.",
+            "profit": 12.37
+        },
+        {
+            "want": "50",
+            "name": "TC-MYCIN 500MG.10'S.",
+            "profit": 18
+        },
+        {
+            "want": "150",
+            "name": "VILERM CREAM 5G.",
+            "profit": 26.85
+        },
+        {
+            "want": "50",
+            "name": "VILERM CREAM 1G.",
+            "profit": 6.09
+        },
+        {
+            "want": "175",
+            "name": "ZEVIN 200MG.5'S.",
+            "profit": 12.75
+        },
+        {
+            "want": "350",
+            "name": "ZEVIN 400MG.10'S.",
+            "profit": 31.07
+        },
+        {
+            "want": "175",
+            "name": "VILERM 400MG.5'S.",
+            "profit": 29.13
+        },
+        {
+            "want": "300",
+            "name": "clinovir 800 mg",
+            "profit": 15.3986
+        },
+        {
+            "want": "200",
+            "name": "AZITABB 250MG.6'S.",
+            "profit": 35
+        },
+        {
+            "want": "180",
+            "name": "GPO AZYCIN 250MG.6'S",
+            "profit": 40.4
+        },
+        {
+            "want": "300",
+            "name": "SIXIME 100MG.10'S.",
+            "profit": 99
+        },
+        {
+            "want": "380",
+            "name": "ZITHROMAX 250MG.6'S.",
+            "profit": 116
+        },
+        {
+            "want": "380",
+            "name": "AMK 1000MG.10'S.",
+            "profit": 42.75
+        },
+        {
+            "want": "200",
+            "name": "AMOKSIKLAV 1000MG.5'S.",
+            "profit": 65.5
+        },
+        {
+            "want": "520",
+            "name": "Bactoclav 1 g. 14's",
+            "profit": 35
+        },
+        {
+            "want": "700",
+            "name": "AUGMENTIN 1G.10'S.",
+            "profit": 96
+        },
+        {
+            "want": "65",
+            "name": "N.L.DOXY 100MG.10'S.",
+            "profit": 24.4
+        },
+        {
+            "want": "55",
+            "name": "AMOXYCILLIN 500MG.10'S",
+            "profit": 26
+        },
+        {
+            "want": "55",
+            "name": "Moxicap",
+            "profit": 26.15
+        },
+        {
+            "want": "75",
+            "name": "DICLOXMED 500MG.10'S.",
+            "profit": 24.8
+        },
+        {
+            "want": "100",
+            "name": "NORFOX 400MG.10'S.",
+            "profit": 42.1
+        },
+        {
+            "want": "100",
+            "name": "SEFNOR 400 (10's)",
+            "profit": 17.5
+        },
+        {
+            "want": "100",
+            "name": "NORFLOX RX 400 MG 10'S",
+            "profit": 19.22
+        },
+        {
+            "want": "100",
+            "name": "CIPFLOCIN 500MG.10'S",
+            "profit": 39.9
+        },
+        {
+            "want": "100",
+            "name": "COBAY 500MG.10'S.",
+            "profit": 36.2
+        },
+        {
+            "want": "100",
+            "name": "CRAVIXIN 500MG.10'S.",
+            "profit": 51
+        },
+        {
+            "want": "150",
+            "name": "CLINDAVID 300 MG 10'S",
+            "profit": 23.32
+        },
+        {
+            "want": "380",
+            "name": "Itrazole 100mg 4's",
+            "profit": 26.64
+        },
+        {
+            "want": "120",
+            "name": "FLUCOZOLE 150MG.1'S.",
+            "profit": 18.78
+        },
+        {
+            "want": "120",
+            "name": "BIOZOLE 150MG.1'S.",
+            "profit": 29.87
+        },
+        {
+            "want": "50",
+            "name": "METROLEX 400MG.10'S.",
+            "profit": 26.09
+        },
+        {
+            "want": "25",
+            "name": "ผงพิเศษตราร่มชูชีพ",
+            "profit": 6.4
+        },
+        {
+            "want": "30",
+            "name": "ยาดมตราเสือ 2ML.",
+            "profit": 6.46
+        },
+        {
+            "want": "30",
+            "name": "ยาดมเพพเพอร์มินท์ฟิลด์ แบล็ค 2ซีซี",
+            "profit": 7.1233
+        },
+        {
+            "want": "30",
+            "name": "ยาดมน้ำ เซียงเพียว กลิ่นยูคาลิปตัส 3cc",
+            "profit": 19.82
+        },
+        {
+            "want": "30",
+            "name": "พิมเสนน้ำตราโป๊ยเซียน-ชนิดลูกกลิ้ง",
+            "profit": 10.5
+        },
+        {
+            "want": "40",
+            "name": "พิมเสนน้ำลูกกลิ้ง ตราหนุมาน 5ซีซี",
+            "profit": 11.5
+        },
+        {
+            "want": "40",
+            "name": "VAPEX 14ML.",
+            "profit": 20.97
+        },
+        {
+            "want": "30",
+            "name": "ยาหม่องน้ำตราถ้วยทอง 3ซีซี.",
+            "profit": 28.26
+        },
+        {
+            "want": "50",
+            "name": "ยาหม่องน้ำตราถ้วยทอง 7ซีซี.",
+            "profit": 9.5
+        },
+        {
+            "want": "40",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊วชนิดลูกกลิ้ง-สูตร2 (สีขาว) 5ซีซี.",
+            "profit": 45
+        },
+        {
+            "want": "40",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊วชนิดลูกกลิ้ง-สูตร1 (สีทอง) 5ซีซี.",
+            "profit": 45
+        },
+        {
+            "want": "30",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊วสูตร 1 3 cc ลูกกลิ้ง",
+            "profit": 45
+        },
+        {
+            "want": "30",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊วสูตร 2 3 cc ลูกกลิ้ง",
+            "profit": 45
+        },
+        {
+            "want": "180",
+            "name": "VICKS BABY BALSAM 50G.",
+            "profit": 72
+        },
+        {
+            "want": "120",
+            "name": "VICKS ขวด50G.",
+            "profit": 71
+        },
+        {
+            "want": "75",
+            "name": "VICKS ขวด25G.",
+            "profit": 32.5
+        },
+        {
+            "want": "25",
+            "name": "VICKS ตลับ5G.",
+            "profit": 8
+        },
+        {
+            "want": "40",
+            "name": "VICKS ตลับ10G.",
+            "profit": 21
+        },
+        {
+            "want": "75",
+            "name": "TIFFYRUB ขวด20G.",
+            "profit": 23.5
+        },
+        {
+            "want": "40",
+            "name": "TIFFYRUB ตลับ10G.",
+            "profit": 13.25
+        },
+        {
+            "want": "40",
+            "name": "ยาหม่องตราถ้วยทอง-ตลับใหญ่ 8กรัม",
+            "profit": 7.4167
+        },
+        {
+            "want": "50",
+            "name": "ยาหม่องตราถ้วยทอง-ขวดเล็ก 12กรัม",
+            "profit": 26
+        },
+        {
+            "want": "75",
+            "name": "ยาหม่องตราถ้วยทอง-ขวดกลาง 22กรัม",
+            "profit": 11
+        },
+        {
+            "want": "40",
+            "name": "ยาหม่องพิมเสน ตราห้าม้า 5g",
+            "profit": 25
+        },
+        {
+            "want": "75",
+            "name": "ยาหม่องตราถ้วยทอง-ขวดกลาง 22กรัม",
+            "profit": 11
+        },
+        {
+            "want": "30",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊ว-สูตร2 (สีขาว) 3ซีซี",
+            "profit": 9
+        },
+        {
+            "want": "50",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊ว-สูตร2 (สีขาว) 7ซีซี",
+            "profit": 17.02
+        },
+        {
+            "want": "100",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊ว-สูตร2 (สีขาว) 25ซีซี",
+            "profit": 34
+        },
+        {
+            "want": "30",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊ว-สูตร1 (สีแดง) 3ซีซี",
+            "profit": 10.1615
+        },
+        {
+            "want": "50",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊ว-สูตร1 (สีแดง) 7ซีซี",
+            "profit": 16.5057
+        },
+        {
+            "want": "100",
+            "name": "ยาหม่องน้ำเซียงเพียวอิ๊ว-สูตร1 (สีแดง) 25ซีซี",
+            "profit": 47.06
+        },
+        {
+            "want": "150",
+            "name": "ยาหม่องตราเสือ-สีขาว 30G",
+            "profit": 25.5
+        },
+        {
+            "want": "100",
+            "name": "ยาหม่องตราเสือ-สีขาว 19.4G",
+            "profit": 21
+        },
+        {
+            "want": "60",
+            "name": "ยาหม่องตราเสือ-สีขาว 10G",
+            "profit": 12.3333
+        },
+        {
+            "want": "150",
+            "name": "ยาหม่องตราเสือ-สีแดง 30G",
+            "profit": 22
+        },
+        {
+            "want": "100",
+            "name": "ยาหม่องตราเสือ-สีแดง 19.4G",
+            "profit": 21
+        },
+        {
+            "want": "60",
+            "name": "ยาหม่องตราเสือ-สีแดง 10G",
+            "profit": 12.3333
+        },
+        {
+            "want": "85",
+            "name": "ZAM-BUK 36G",
+            "profit": 28.5
+        },
+        {
+            "want": "50",
+            "name": "ZAM-BUK HR 18G",
+            "profit": 16.25
+        },
+        {
+            "want": "100",
+            "name": "ยาหอมตรา5เจดีย์-เบอร์1 25กรัม",
+            "profit": 10.6667
+        },
+        {
+            "want": "50",
+            "name": "ยาหอมตรา5เจดีย์-เบอร์2 9กรัม",
+            "profit": 9.5833
+        },
+        {
+            "want": "120",
+            "name": "ยาหอมตราเด็กในพานทอง-ขวดพิเศษ",
+            "profit": 14.1667
+        },
+        {
+            "want": "75",
+            "name": "ยาหอมตราเด็กในพานทอง-ขวดกลาง",
+            "profit": 6
+        },
+        {
+            "want": "40",
+            "name": "PATAR M16 ยาแก้ปวดฟัน",
+            "profit": 6.75
+        },
+        {
+            "want": "75",
+            "name": "มหาหิงคุ์ สหการ 60ML",
+            "profit": 11.75
+        },
+        {
+            "want": "85",
+            "name": "มหาหิงคุ์ วี.เอส ชนิดลูกกลิ้ง 60มล",
+            "profit": 12.5
+        },
+        {
+            "want": "40",
+            "name": "แอมโมเนียหอมสหการ 30มล",
+            "profit": 8
+        },
+        {
+            "want": "40",
+            "name": "PYRAD-VIOLET 15ML",
+            "profit": 3.5
+        },
+        {
+            "want": "40",
+            "name": "U-ENEMA ยู-อีนีมา 100ML",
+            "profit": 13
+        },
+        {
+            "want": "30",
+            "name": "UNISON ยาสวนทวารผู้ใหญ่ 20CC",
+            "profit": 3.4
+        },
+        {
+            "want": "20",
+            "name": "UNISON ยาสวนทวารเด็ก 10CC",
+            "profit": 3.55
+        },
+        {
+            "want": "60",
+            "name": "พลาสเตอร์ปิดปวดหลังตราเสือ (10x14ซม.) 2ชิ้น",
+            "profit": 19.1736
+        },
+        {
+            "want": "70",
+            "name": "พลาสเตอร์ตราเสือ-สูตรร้อน (L)(10x14ซม.) 2ชิ้น",
+            "profit": 20.5762
+        },
+        {
+            "want": "70",
+            "name": "พลาสเตอร์ตราเสือ-สูตรเย็น (L)(10x14ซม.) 2ชิ้น",
+            "profit": 20.5762
+        },
+        {
+            "want": "50",
+            "name": "พลาสเตอร์ตราเสือ-สูตรร้อน (S)(7x10ซม.) 2ชิ้น",
+            "profit": 15
+        },
+        {
+            "want": "50",
+            "name": "พลาสเตอร์ตราเสือ-สูตรเย็น (S)(7x10ซม.) 2ชิ้น",
+            "profit": 16
+        },
+        {
+            "want": "180",
+            "name": "AMMELTZ HEAT PATCH GOLD สำหรับปวดประจำเดือน",
+            "profit": 13
+        },
+        {
+            "want": "180",
+            "name": "AMMELTZ HEAT PATCH GOLD สำหรับปวดคอและไหล่",
+            "profit": 11.5
+        },
+        {
+            "want": "180",
+            "name": "AMMELTZ HEAT PATCH GOLD สำหรับปวดหลัง",
+            "profit": 11.5
+        },
+        {
+            "want": "50",
+            "name": "THERMA PLAST แผ่นประคบร้อน 1 ชิ้น",
+            "profit": 12.2
+        },
+        {
+            "want": "75",
+            "name": "COUNTERPAIN พลาสเตอร์บรรเทาปวด (ชนิดCOOL) 4แผ่น",
+            "profit": 11.8349
+        },
+        {
+            "want": "75",
+            "name": "COUNTERPAIN พลาสเตอร์บรรเทาปวด (ชนิดWARM) 4แผ่น",
+            "profit": 11.8349
+        },
+        {
+            "want": "180",
+            "name": "REPARIL GEL N 40G",
+            "profit": 53
+        },
+        {
+            "want": "100",
+            "name": "REPARIL GEL N 20G",
+            "profit": 37
+        },
+        {
+            "want": "50",
+            "name": "REPARIL GEL N 10G",
+            "profit": 26.5
+        },
+        {
+            "want": "50",
+            "name": "SALONPAS พลาสเตอร์ ขนาด4x7ซม.10ชิ้น",
+            "profit": 12.5
+        },
+        {
+            "want": "50",
+            "name": "NEOBUN-GEL WARM (สูตรร้อน)(7x10CM.) 2ชิ้น",
+            "profit": 14.25
+        },
+        {
+            "want": "40",
+            "name": "NEOBUN พลาสเตอร์บรรเทาปวด 10แผ่น",
+            "profit": 8.75
+        },
+        {
+            "want": "30",
+            "name": "NEOBUN พลาสเตอร์บรรเทาปวด 11x8CM.3แผ่น",
+            "profit": 7.5
+        },
+        {
+            "want": "40",
+            "name": "RHINOBUN พลาสเตอร์บรรเทาปวด 10แผ่น",
+            "profit": 6.85
+        },
+        {
+            "want": "75",
+            "name": "ซอฟเฟล สเปรย์กันยุง (กลิ่นฟลอร่า) 80ML",
+            "profit": 27.2833
+        },
+        {
+            "want": "75",
+            "name": "ซอฟเฟล สเปรย์กันยุง (กลิ่นเนเชอรัล) 80ML",
+            "profit": 21.5758
+        },
+        {
+            "want": "85",
+            "name": "SKETOLENE น้ำมันตะไคร้หอม (สีเขียว) 60ML",
+            "profit": 18.4625
+        },
+        {
+            "want": "85",
+            "name": "SKETOLENE SHIELD (สีเหลือง) 70ML",
+            "profit": 24.9825
+        },
+        {
+            "want": "40",
+            "name": "ลูกอมสมุนไพรเนียมฉื่ออำ ตราลูกกตัญญู 20กรัม (รสบ๊วยยูมิ)",
+            "profit": 10.75
+        },
+        {
+            "want": "60",
+            "name": "STREPSILS-วิตามินซี ชนิดซอง 8'S",
+            "profit": 30
+        },
+        {
+            "want": "60",
+            "name": "STREPSILS-ซิตรัส เลมอนชูการ์ฟรี ชนิดซอง 6'S",
+            "profit": 9.5833
+        },
+        {
+            "want": "60",
+            "name": "STREPSILS-น้ำผึ้งมะนาว ชนิดซอง 8'S",
+            "profit": 7.25
+        },
+        {
+            "want": "60",
+            "name": "STREPSILS-คูล ชนิดซอง 8'S",
+            "profit": 9.5833
+        },
+        {
+            "want": "60",
+            "name": "STREPSILS-ออริจินัล ชนิดซอง 8'S",
+            "profit": 9.375
+        },
+        {
+            "want": "40",
+            "name": "I-HERB ยาอมสมุนไพร OTC 18เม็ด",
+            "profit": 10.5717
+        },
+        {
+            "want": "50",
+            "name": "MYBACIN THROAT (รสมิ้นท์) 10'S",
+            "profit": 3
+        },
+        {
+            "want": "50",
+            "name": "MYBACIN ZINC (รสส้ม) 10'S",
+            "profit": 3
+        },
+        {
+            "want": "75",
+            "name": "THROATSIL PLUS ชนิดซอง 8เม็ด",
+            "profit": 15
+        },
+        {
+            "want": "60",
+            "name": "THROATSIL ชนิดซอง (รสส้ม) 8เม็ด",
+            "profit": 7.75
+        },
+        {
+            "want": "60",
+            "name": "THROATSIL ชนิดซอง (รสมะนาว) 8เม็ด",
+            "profit": 7.75
+        },
+        {
+            "want": "15",
+            "name": "STRONK-K (รสส้ม) 25G",
+            "profit": 2.36
+        },
+        {
+            "want": "15",
+            "name": "ROYAL-D (รสดั้งเดิม) 25G",
+            "profit": 2.84
+        },
+        {
+            "want": "15",
+            "name": "STRONK-K (รสผลไม้รวม) 25G",
+            "profit": 2.36
+        },
+        {
+            "want": "15",
+            "name": "STRONK-K เกลือแร่ 25G",
+            "profit": 3.152
+        },
+        {
+            "want": "40",
+            "name": "GAVISCON DUAL ACTION 10ML",
+            "profit": 9.0625
+        },
+        {
+            "want": "40",
+            "name": "GAVISCON ADVANCE PEPPERMINT 10ML",
+            "profit": 7.0417
+        },
+        {
+            "want": "30",
+            "name": "ONE GERD ชนิดซอง 10ML",
+            "profit": 5.4167
+        },
+        {
+            "want": "30",
+            "name": "AMOGIN GEL (ชนิดซอง) 15ML",
+            "profit": 6.6
+        },
+        {
+            "want": "25",
+            "name": "LIPS CARE ตราเภสัชกร 2กรัม",
+            "profit": 3.3333
+        },
+        {
+            "want": "45",
+            "name": "DIOXZYE (รสมิ้นท์) 10'S",
+            "profit": 8.76
+        },
+        {
+            "want": "12",
+            "name": "ENO ซอง (รสมะนาว)",
+            "profit": 7.5
+        },
+        {
+            "want": "12",
+            "name": "ENO ซอง (รสส้ม)",
+            "profit": 7.5
+        },
+        {
+            "want": "35",
+            "name": "ANTACIL 10'S",
+            "profit": 4.384
+        },
+        {
+            "want": "40",
+            "name": "AIR-X 80MG.(รสมะนาว) 10'S",
+            "profit": 3.3
+        },
+        {
+            "want": "40",
+            "name": "AIR-X 80MG.(รสส้ม) 10'S",
+            "profit": 4.6
+        },
+        {
+            "want": "40",
+            "name": "AIR-X 80MG.(รสมิ้นท์) 10'S",
+            "profit": 4.6
+        },
+        {
+            "want": "45",
+            "name": "MEDMAKER PURE PEROLEUM JELLY 50G.(ชนิดกระปุก)",
+            "profit": 16.25
+        },
+        {
+            "want": "45",
+            "name": "MEDMAKER PURE PEROLEUM JELLY 50G.(BABY)",
+            "profit": 16.25
+        },
+        {
+            "want": "550",
+            "name": "Rheutril-1500 30's",
+            "profit": 45
+        },
+        {
+            "want": "95",
+            "name": "กระเป๋าน้ำร้อน LONGMED ขนาดเล็ก",
+            "profit": 30.25
+        },
+        {
+            "want": "180",
+            "name": "กระเป๋าน้ำร้อน LONGMED",
+            "profit": 45
+        },
+        {
+            "want": "75",
+            "name": "DUREX LOVE 52.5มม.3ชิ้น",
+            "profit": 17.5
+        },
+        {
+            "want": "85",
+            "name": "DUREX ช็อกโกแลต 53มม.3ชิ้น",
+            "profit": 38
+        },
+        {
+            "want": "85",
+            "name": "DUREX SENSATION 52มม.3ชิ้น",
+            "profit": 40.5
+        },
+        {
+            "want": "75",
+            "name": "DUREX KINGTEX 49มม.3ชิ้น",
+            "profit": 19
+        },
+        {
+            "want": "100",
+            "name": "DUREX PERFORMA 52.5มม.3ชิ้น",
+            "profit": 20
+        },
+        {
+            "want": "75",
+            "name": "DUREX EXPLORE 52.5มม.3ชิ้น",
+            "profit": 14
+        },
+        {
+            "want": "75",
+            "name": "Durex protect 52.5mm/กล่อง",
+            "profit": 20
+        },
+        {
+            "want": "85",
+            "name": "DUREX COMFORT 56มม.3ชิ้น",
+            "profit": 21
+        },
+        {
+            "want": "100",
+            "name": "DUREX FETHERLITE 52.5มม.3ชิ้น",
+            "profit": 31
+        },
+        {
+            "want": "75",
+            "name": "DIFFLAM ยาอม (รสน้ำผึ้งผสมมะนาว) 8'S",
+            "profit": 9.5
+        },
+        {
+            "want": "65",
+            "name": "SOFY SOFT TAMPON ผ้าอนามัยแบบสอด REGULAR (มาปกติ) 5ชิ้น",
+            "profit": 33.11
+        },
+        {
+            "want": "95",
+            "name": "ผ้าอนามัยชนิดสอด O.B.PROCOMFORT รุ่นธรรมดา 8ชิ้น",
+            "profit": 26.3183
+        },
+        {
+            "want": "95",
+            "name": "ผ้าอนามัยชนิดสอด O.B.PROCOMFORT SUPER 8ชิ้น",
+            "profit": 27.0151
+        },
+        {
+            "want": "220",
+            "name": "K-Y JELLY 42G",
+            "profit": 45
+        },
+        {
+            "want": "100",
+            "name": "K-Y JELLY 15G",
+            "profit": 17
+        },
+        {
+            "want": "220",
+            "name": "DUREX PLAY CLASSIC 50ML",
+            "profit": 30
+        },
+        {
+            "want": "120",
+            "name": "เจลหล่อลื่น วันทัช (เนเชอรัล) 75ML",
+            "profit": 56.5
+        },
+        {
+            "want": "120",
+            "name": "เจลหล่อลื่น วันทัช (สตรอเบอรี่) 75ML",
+            "profit": 68.15
+        },
+        {
+            "want": "95",
+            "name": "MOLFIX ทิชชู่เปียก NATURAL HYGIENIC 100แผ่น",
+            "profit": 35.5
+        },
+        {
+            "want": "50",
+            "name": "Dentiste ยาสีฟันแปรงแห้ง 10 g",
+            "profit": 0
+        }
+    ],
+    "GI": [
+        {
+            "want": "50",
+            "name": "GREATER CA-R-BON 20'S.",
+            "profit": 15
+        },
+        {
+            "want": "30",
+            "name": "GREATER CA-R-BON 10'S.",
+            "profit": 5.3
+        },
+        {
+            "want": "30",
+            "name": "MYCARBON (10's)",
+            "profit": 6
+        },
+        {
+            "want": "30",
+            "name": "DELTACARBON 10'S.(รุ่น1กล่อง=1แผง)",
+            "profit": 17.68
+        },
+        {
+            "want": "150",
+            "name": "SENOLAX 60'S.",
+            "profit": 24.75
+        },
+        {
+            "want": "180",
+            "name": "SENOKOT 60'S.",
+            "profit": 41.33
+        },
+        {
+            "want": "30",
+            "name": "EMULAX BISACODYL 5MG.10'S.",
+            "profit": 8.7
+        },
+        {
+            "want": "56",
+            "name": "GLYCERIN SUPPO.(สำหรับเด็ก) 12'S.",
+            "profit": 29
+        },
+        {
+            "want": "120",
+            "name": "GLYCERIN SUPPO.(สำหรับผู้ใหญ่) 12'S.",
+            "profit": 35.2
+        },
+        {
+            "want": "50",
+            "name": "FORLAX POWDER 10G.",
+            "profit": 6.75
+        },
+        {
+            "want": "250",
+            "name": "FYBOGEL (รสส้ม) 10ซอง",
+            "profit": 16
+        },
+        {
+            "want": "250",
+            "name": "MUCILIN SF 5G.(รสส้ม) 10ซอง (ขายยกกล่อง)",
+            "profit": 39
+        },
+        {
+            "want": "",
+            "name": "MUCILIN 5G.(รสส้ม) 30ซอง  ; (ขายเเบบซอง)",
+            "profit": 4
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHENIRAMINE 2MG BL.HUA",
+            "profit": 7.2
+        },
+        {
+            "want": "200",
+            "name": "ONSIA 8MG.10'S.",
+            "profit": 116.18
+        },
+        {
+            "want": "40",
+            "name": "SIAMIDINE 400MG.10'S.",
+            "profit": 14.36
+        },
+        {
+            "want": "80",
+            "name": "MIRACID 20MG.10'S.",
+            "profit": 12.8
+        },
+        {
+            "want": "33",
+            "name": "MIRACID 20MG.14'S.",
+            "profit": 17
+        },
+        {
+            "want": "100",
+            "name": "ULCEFATE 1G.5ML.",
+            "profit": 25
+        },
+        {
+            "want": "65",
+            "name": "Strocain 10's ลดกรด+ยาชา",
+            "profit": 15
+        },
+        {
+            "want": "30",
+            "name": "VOMITIL-M 10's",
+            "profit": 11.1
+        },
+        {
+            "want": "70",
+            "name": "MOTILIUM-M 10MG.10'S.",
+            "profit": 17
+        },
+        {
+            "want": "40",
+            "name": "KREMIL 10'S.",
+            "profit": 7.29
+        },
+        {
+            "want": "40",
+            "name": "KREMIL-S 10'S.",
+            "profit": 6.05
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHENIRAMINE 2MG BL.HUA",
+            "profit": 7.2
+        },
+        {
+            "want": "50",
+            "name": "MAGESTO-F 10'S.",
+            "profit": 6.88
+        },
+        {
+            "want": "380",
+            "name": "MAGESTO-F 100'S.",
+            "profit": 31
+        },
+        {
+            "want": "50",
+            "name": "GASZYM 10'S.",
+            "profit": 11.3
+        },
+        {
+            "want": "50",
+            "name": "PUDIN HARA 10'S.",
+            "profit": 10.5
+        },
+        {
+            "want": "30",
+            "name": "BERCLOMIN 10'S.",
+            "profit": 9.9
+        },
+        {
+            "want": "75",
+            "name": "FLAVORIN 100MG.10'S.",
+            "profit": 11.4
+        },
+        {
+            "want": "21.9",
+            "name": "U-SPA 100MG. 10'S",
+            "profit": 13.1
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHENIRAMINE 2MG BL.HUA",
+            "profit": 7.2
+        },
+        {
+            "want": "12",
+            "name": "OREDA R.O.(รสส้ม)",
+            "profit": 2.42
+        },
+        {
+            "want": "20",
+            "name": "OREDA R.O. รสส้ม ซองใหญ่",
+            "profit": 3.5
+        },
+        {
+            "want": "20",
+            "name": "OREDA X-L ORS 7.5G.",
+            "profit": 3.2
+        },
+        {
+            "want": "15.91",
+            "name": "SMECTA 3G. (ซอง)",
+            "profit": 10
+        },
+        {
+            "want": "40",
+            "name": "SMECTA STRAWBERRY 3G.",
+            "profit": 9.8
+        },
+        {
+            "want": "50",
+            "name": "SMECTAGO SUSPENSION 10G.",
+            "profit": 14.91
+        },
+        {
+            "want": "75",
+            "name": "DEHECTA 3G.20ML.2ซอง",
+            "profit": 23.8
+        },
+        {
+            "want": "85",
+            "name": "IMODIUM 6'S.",
+            "profit": 13.75
+        },
+        {
+            "want": "100",
+            "name": "ERFUZIDE 200MG.12'S.",
+            "profit": 21.6
+        },
+        {
+            "want": "75",
+            "name": "ERFUZIDE 30ML.",
+            "profit": 19.6
+        },
+        {
+            "want": "90",
+            "name": "AIR-X DROP 15ML.",
+            "profit": 20
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHENIRAMINE 2MG BL.HUA",
+            "profit": 7.2
+        },
+        {
+            "want": "15",
+            "name": "DERFALON 500MG.10'S.",
+            "profit": 54.15
+        },
+        {
+            "want": "380",
+            "name": "DOPROCT SUPPO.10'S.",
+            "profit": 33
+        },
+        {
+            "want": "40",
+            "name": "DIOSMIN 500MG.10'S. (แผง)",
+            "profit": 30
+        }
+    ],
+    "ทางเดินหายใจ": [
+        {
+            "want": "100",
+            "name": "BIOFRESH MOUTH SPRAY 15ML.",
+            "profit": 35
+        },
+        {
+            "want": "150",
+            "name": "EUGICA HERBAL MOUTH SPRAY 10ML.",
+            "profit": 30
+        },
+        {
+            "want": "180",
+            "name": "PROPOLIZ KID MOUTH SPRAY (สำหรับเด็ก) 10ML.",
+            "profit": 36.27
+        },
+        {
+            "want": "220",
+            "name": "PROPOLIZ PLUS EXTHERB MOUTH SPRAY 15ML.",
+            "profit": 49.7
+        },
+        {
+            "want": "220",
+            "name": "PROPOLIZ MOUTH SPRAY ผสมกระชายขาว 15ML.",
+            "profit": 42.67
+        },
+        {
+            "want": "250",
+            "name": "PROPOLIZ X MOUTH SPRAY 15ML",
+            "profit": 47.73
+        },
+        {
+            "want": "220",
+            "name": "KAMILLOSAN M 15ML.",
+            "profit": 44
+        },
+        {
+            "want": "150",
+            "name": "MYBACIN สเปรย์ช่องปากผสมสารสกัดฟ้าทะลายโจร 15ML",
+            "profit": 32.4583
+        },
+        {
+            "want": "120",
+            "name": "MYBACIN สเปรย์ช่องปากผสมสารสกัดธรรมชาติ 15ML.",
+            "profit": 34.35
+        },
+        {
+            "want": "120",
+            "name": "MYBACIN สเปรย์ช่องปากผสมสารสกัดมังคุด 15ML.",
+            "profit": 46.9304
+        },
+        {
+            "want": "220",
+            "name": "BETADINE THROAT SPRAY 12ML",
+            "profit": 55.5
+        },
+        {
+            "want": "55",
+            "name": "MYBACIN สเปรย์ช่องปากผสมสารสกัดธรรมชาติ 4.5ML.",
+            "profit": 13.67
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHENIRAMINE 2MG BL.HUA",
+            "profit": 7.2
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHENIRAMINE 2MG BL.HUA",
+            "profit": 7.2
+        },
+        {
+            "want": "100",
+            "name": "DORMIRAX 25MG.10'S.",
+            "profit": 17.6
+        },
+        {
+            "want": "40",
+            "name": "SULIDINE-CP 10'S.",
+            "profit": 12.1
+        },
+        {
+            "want": "65",
+            "name": "COUGO 20'S.",
+            "profit": 16
+        },
+        {
+            "want": "40",
+            "name": "NASOLIN P.L.10'S.",
+            "profit": 13.5
+        },
+        {
+            "want": "40",
+            "name": "NASOTAPP 10'S",
+            "profit": 18.1
+        },
+        {
+            "want": "30",
+            "name": "Dibendryl 25mg 10's",
+            "profit": 13.5
+        },
+        {
+            "want": "40",
+            "name": "HYDROXYZINE (MDP) 10MG.10'S.",
+            "profit": 8.84
+        },
+        {
+            "want": "10",
+            "name": "CHLORPHEN-Y 100'S",
+            "profit": 20
+        },
+        {
+            "want": "30",
+            "name": "PHENZ 50MG.10'S",
+            "profit": 46.29
+        },
+        {
+            "want": "40",
+            "name": "Rhinotapp 10's",
+            "profit": 25.6006
+        },
+        {
+            "want": "30",
+            "name": "DIMENHYDRINATE (T.MAN) 50MG.ชนิดฟอยล์ใส 10'S",
+            "profit": 7.5
+        },
+        {
+            "want": "30",
+            "name": "Phamamin 10's",
+            "profit": 9.8
+        },
+        {
+            "want": "40",
+            "name": "HISTADINE 10MG.10'S",
+            "profit": 25
+        },
+        {
+            "want": "40",
+            "name": "CETIZAL 5MG.10'S",
+            "profit": 55
+        },
+        {
+            "want": "50",
+            "name": "ALLERNIX 10MG.10'S.",
+            "profit": 20.1
+        },
+        {
+            "want": "100",
+            "name": "DESTA 5MG.10'S.",
+            "profit": 25
+        },
+        {
+            "want": "200",
+            "name": "ASTAIR 10MG. 7'S.",
+            "profit": 38.75
+        },
+        {
+            "want": "100",
+            "name": "MEPTIN 25MCG.10'S.",
+            "profit": 14
+        },
+        {
+            "want": "100",
+            "name": "DESLORATADINE SDZ.5MG.10'S.",
+            "profit": 60
+        },
+        {
+            "want": "180",
+            "name": "TELFAST 60MG.10'S.",
+            "profit": 39
+        },
+        {
+            "want": "300",
+            "name": "TELFAST 180MG.10'S.",
+            "profit": 77
+        },
+        {
+            "want": "150",
+            "name": "AVAFAST 180MG.10'S.",
+            "profit": 31.7
+        },
+        {
+            "want": "100",
+            "name": "AVAFAST 60MG.10'S.",
+            "profit": 30
+        },
+        {
+            "want": "100",
+            "name": "FENAFEX 60MG.10'S",
+            "profit": 19.03
+        },
+        {
+            "want": "150",
+            "name": "FENAFEX 180MG.10'S",
+            "profit": 35.5
+        },
+        {
+            "want": "100",
+            "name": "ALLORA 5MG.10'S",
+            "profit": 27
+        },
+        {
+            "want": "300",
+            "name": "BILAXTEN KIDS 10MG.10'S.",
+            "profit": 60
+        },
+        {
+            "want": "40",
+            "name": "Sutac",
+            "profit": 30
+        },
+        {
+            "want": "40",
+            "name": "ETRIZIN (10's)",
+            "profit": 15.1
+        },
+        {
+            "want": "40",
+            "name": "ZIRIN 10'S.",
+            "profit": 37
+        },
+        {
+            "want": "40",
+            "name": "GREATER LORADINE 10MG. 10'S",
+            "profit": 24.9
+        },
+        {
+            "want": "380",
+            "name": "BILAXTEN 20MG.10'S.",
+            "profit": 58
+        },
+        {
+            "want": "100",
+            "name": "Fexlora เคี้ยว",
+            "profit": 70
+        },
+        {
+            "want": "50",
+            "name": "LOREZE 10MG.10'S",
+            "profit": 37
+        },
+        {
+            "want": "85",
+            "name": "CLARITYNE 10MG.5'S.",
+            "profit": 28
+        },
+        {
+            "want": "40",
+            "name": "Botidine 10's",
+            "profit": 19.5
+        },
+        {
+            "want": "180",
+            "name": "NUELIN-SR 200MG.20'S",
+            "profit": 59.9
+        },
+        {
+            "want": "65",
+            "name": "ROMIVON SOFT GELATIN CAPSULES 10'S.",
+            "profit": 35
+        },
+        {
+            "want": "50",
+            "name": "BRONPECT-D (10's)",
+            "profit": 21.7
+        },
+        {
+            "want": "75",
+            "name": "CISTEINE 375MG.12'S.",
+            "profit": 12.5
+        },
+        {
+            "want": "100",
+            "name": "SOLMAX 500MG.10'S.",
+            "profit": 18.75
+        },
+        {
+            "want": "150",
+            "name": "NACLONG 600MG.10'S.",
+            "profit": 47.93
+        },
+        {
+            "want": "180",
+            "name": "FLEMEX-AC OD 600MG.10'S.",
+            "profit": 48
+        },
+        {
+            "want": "100",
+            "name": "FLEMEX 375MG.10'S.",
+            "profit": 17.25
+        },
+        {
+            "want": "65",
+            "name": "BISOLVON 8MG.10'S.",
+            "profit": 28.1
+        },
+        {
+            "want": "300",
+            "name": "FLUIMUCIL A 600MG.10'S",
+            "profit": 63
+        },
+        {
+            "want": "120",
+            "name": "MUCLEAR 10'S.",
+            "profit": 54.5
+        },
+        {
+            "want": "75",
+            "name": "MUCOLID 30MG.10'S. (Box)",
+            "profit": 30
+        },
+        {
+            "want": "30",
+            "name": "Bromstar",
+            "profit": 25
+        },
+        {
+            "want": "250",
+            "name": "MYSOVEN 600MG.",
+            "profit": 6.35
+        },
+        {
+            "want": "100",
+            "name": "MYSOVEN 100MG.",
+            "profit": 3.13
+        },
+        {
+            "want": "120",
+            "name": "MYSOVEN 200MG.",
+            "profit": 6.63
+        },
+        {
+            "want": "50",
+            "name": "TERCO-D 10'S.",
+            "profit": 22.2
+        },
+        {
+            "want": "25",
+            "name": "TIFFY DEY 4'S.",
+            "profit": 3.26
+        },
+        {
+            "want": "25",
+            "name": "DECOLGEN PRIN 4'S.",
+            "profit": 3.64
+        },
+        {
+            "want": "25",
+            "name": "IYAFIN 4'S.",
+            "profit": 3.64
+        },
+        {
+            "want": "20",
+            "name": "Mcxy-cold",
+            "profit": 30
+        },
+        {
+            "want": "65",
+            "name": "TIPO 2.5MG.10'S.",
+            "profit": 30
+        },
+        {
+            "want": "120",
+            "name": "zyrtec",
+            "profit": 0
+        },
+        {
+            "want": "180",
+            "name": "Xyzal",
+            "profit": 0
+        },
+        {
+            "want": "40",
+            "name": "Ormist",
+            "profit": 0
+        }
+    ]
+}

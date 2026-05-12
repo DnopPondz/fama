@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบจัดการคลังยา (Real-time Sync)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/node_modules/xlsx/dist/xlsx.full.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Kanit', sans-serif; }</style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+    <header class="bg-indigo-700 text-white p-6 shadow-lg sticky top-0 z-20">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <h1 class="text-2xl font-bold">💊 ระบบคลังยา (บันทึกลง JSON)</h1>
+            <div class="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
+                <input type="text" id="searchInput" placeholder="ค้นหาชื่อยา/หมวด..." class="px-4 py-2 rounded-lg text-gray-800 w-full sm:w-64 focus:ring-2 focus:ring-yellow-400 outline-none">
+                <select id="categoryFilter" class="px-4 py-2 rounded-lg text-gray-800 w-full sm:w-56 focus:ring-2 focus:ring-yellow-400 outline-none">
+                    <option value="">ทั้งหมด</option>
+                </select>
+                <!-- <button id="aiSuggestBtn" class="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 px-4 py-2 rounded-lg font-bold shrink-0 transition text-white">
+                    ✨ เติมราคาอัตโนมัติ (AI)
+                </button> -->
+                <button onclick="openModal()" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg font-bold shrink-0 transition">เพิ่มยาใหม่</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-4">
+            <div class="text-sm text-gray-600">
+                <span class="font-semibold text-gray-800" id="summaryCount">0</span> รายการ
+                <!-- <span class="mx-2 text-gray-300">|</span>
+                รวมกำไร: <span class="font-semibold text-green-700" id="summaryProfit">0</span> ฿ -->
+            </div>
+            <div class="flex gap-2">
+                <button id="exportBtn" class="px-3 py-2 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition text-sm font-semibold">Export Excel</button>
+                <div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-white border text-sm">
+                    <span class="text-gray-600">เลือก</span>
+                    <span class="font-semibold text-gray-900" id="selectedCount">0</span>
+                    <span class="text-gray-600">รายการ</span>
+                </div>
+                <button id="clearSelectionBtn" class="px-3 py-2 rounded-lg bg-white border text-gray-700 hover:bg-gray-50 transition text-sm">ล้างที่เลือก</button>
+                <select id="sortSelect" class="px-3 py-2 rounded-lg bg-white border text-gray-700 hover:bg-gray-50 transition text-sm">
+                    <option value="default">เรียง: ค่าเดิม</option>
+                    <option value="name_asc">ชื่อ: A → Z</option>
+                    <option value="profit_desc">กำไร: มาก → น้อย</option>
+                    <option value="profit_asc">กำไร: น้อย → มาก</option>
+                </select>
+                <button id="clearFiltersBtn" class="px-3 py-2 rounded-lg bg-white border text-gray-700 hover:bg-gray-50 transition text-sm">ล้างตัวกรอง</button>
+            </div>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden overflow-x-auto">
+            <table class="w-full text-left">
+                <thead class="bg-gray-200 border-b">
+                    <tr>
+                        <th class="p-4 w-0">
+                            <input type="checkbox" id="selectAllVisible" class="h-4 w-4 accent-indigo-600">
+                        </th>
+                        <th class="p-4">ชื่อยา</th>
+                        <th class="p-4">หมวดหมู่</th>
+                        <th class="p-4 text-blue-700">ราคา/หน่วย</th>
+                        <th class="p-4 text-green-700">กำไร</th>
+                        <th class="p-4 text-center">จัดการ</th>
+                    </tr>
+                </thead>
+                <tbody id="drugTableBody" class="divide-y divide-gray-100">
+                    </tbody>
+            </table>
+        </div>
+    </main>
+
+    <div id="drugModal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-30 p-4">
+        <div class="bg-white rounded-2xl w-full max-w-md p-6 shadow-2xl">
+            <h2 id="modalTitle" class="text-xl font-bold mb-4 border-b pb-2">จัดการข้อมูลยา</h2>
+            <input type="hidden" id="editIndex">
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">ชื่อยา</label>
+                    <input type="text" id="itemName" class="w-full border rounded-lg p-2 mt-1 outline-indigo-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">หมวดหมู่</label>
+                    <div class="flex gap-2 mt-1">
+                        <select id="itemCategorySelect" class="w-full border rounded-lg p-2 outline-indigo-500 bg-white"></select>
+                        <button type="button" id="toggleCustomCategoryBtn" class="px-3 py-2 rounded-lg border text-gray-700 hover:bg-gray-50 transition text-sm shrink-0">พิมพ์ใหม่</button>
+                    </div>
+                    <input type="text" id="itemCategoryCustom" class="hidden w-full border rounded-lg p-2 mt-2 outline-indigo-500" placeholder="พิมพ์หมวดใหม่...">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">ราคา/ทุน (Want)</label>
+                    <input type="text" id="itemWant" class="w-full border rounded-lg p-2 mt-1 outline-indigo-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">กำไร (ตัวเลข)</label>
+                    <input type="number" id="itemProfit" class="w-full border rounded-lg p-2 mt-1 outline-indigo-500">
+                </div>
+            </div>
+            <div class="flex justify-end gap-3 mt-8">
+                <button onclick="closeModal()" class="px-4 py-2 text-gray-500 hover:text-gray-700">ยกเลิก</button>
+                <button onclick="saveDrug()" class="px-6 py-2 bg-indigo-600 text-white rounded-lg font-bold hover:bg-indigo-700 transition">บันทึกข้อมูล</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirm Modal (แทน confirm/alert) -->
+    <div id="confirmModal" class="hidden fixed inset-0 bg-black/50 flex items-center justify-center z-40 p-4">
+        <div class="bg-white rounded-2xl w-full max-w-md p-6 shadow-2xl">
+            <h3 id="confirmTitle" class="text-lg font-bold text-gray-900">ยืนยัน</h3>
+            <p id="confirmMessage" class="mt-2 text-sm text-gray-600">ต้องการดำเนินการต่อหรือไม่</p>
+            <div class="flex justify-end gap-3 mt-6">
+                <button id="confirmCancelBtn" class="px-4 py-2 rounded-lg border text-gray-700 hover:bg-gray-50 transition">ยกเลิก</button>
+                <button id="confirmOkBtn" class="px-4 py-2 rounded-lg bg-red-600 text-white font-semibold hover:bg-red-700 transition">ยืนยัน</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div id="toastRoot" class="fixed bottom-4 right-4 z-50 space-y-2"></div>
+
+    <script>
+        let rawData = {}; // เก็บโครงสร้างเดิมของ JSON
+        let drugsArray = []; // เก็บเป็น Flat Array เพื่อแสดงผล/ค้นหา
+        let currentSearchTerm = "";
+        let currentCategory = "";
+        let currentSort = "default";
+        let lastRenderedItems = [];
+        const selectedGlobalIndices = new Set();
+
+        function escapeHtml(text) {
+            return String(text ?? "").replace(/[&<>"']/g, (ch) => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                "\"": "&quot;",
+                "'": "&#39;"
+            }[ch]));
+        }
+
+        function showToast(message, variant = "info") {
+            const root = document.getElementById('toastRoot');
+            const el = document.createElement('div');
+            const color =
+                variant === "success" ? "bg-green-600" :
+                variant === "error" ? "bg-red-600" :
+                "bg-gray-900";
+            el.className = `${color} text-white px-4 py-3 rounded-xl shadow-lg text-sm max-w-sm`;
+            el.innerHTML = `<div class="flex items-start gap-3"><div class="flex-1">${escapeHtml(message)}</div></div>`;
+            root.appendChild(el);
+            setTimeout(() => {
+                el.classList.add("opacity-0", "transition", "duration-300");
+                setTimeout(() => el.remove(), 320);
+                }, 2200);
+        }
+
+        // AI: เติมราคา want ที่ยังว่าง (เรียกผ่าน server เพื่อไม่โชว์ API key ฝั่ง client)
+        let aiSuggestLoading = false;
+        let aiEnabledCached = null;
+
+        async function refreshAiButtonState() {
+            const btn = document.getElementById('aiSuggestBtn');
+            if (!btn) return;
+            try {
+                const res = await fetch('/api/ai-status');
+                const status = await res.json();
+                aiEnabledCached = Boolean(status?.allowAi) && Boolean(status?.hasApiKey);
+                if (!aiEnabledCached) {
+                    btn.disabled = true;
+                    btn.classList.add('opacity-70', 'cursor-not-allowed');
+                    btn.title = "AI ปิดอยู่: ตั้ง ALLOW_AI=1 และ GEMINI_API_KEY แล้วรีสตาร์ทเซิร์ฟเวอร์";
+                } else {
+                    btn.disabled = false;
+                    btn.classList.remove('opacity-70', 'cursor-not-allowed');
+                    btn.title = status?.model ? `Model: ${status.model}` : "";
+                }
+            } catch {
+                aiEnabledCached = false;
+                btn.disabled = true;
+                btn.classList.add('opacity-70', 'cursor-not-allowed');
+                btn.title = "เช็คสถานะ AI ไม่ได้";
+            }
+        }
+
+        async function suggestMissingWantWithAI() {
+            if (aiSuggestLoading) return;
+            aiSuggestLoading = true;
+
+            const btn = document.getElementById('aiSuggestBtn');
+            const prevText = btn?.innerText || "";
+            if (btn) {
+                btn.innerText = "⏳ กำลังประมวลผล...";
+                btn.disabled = true;
+                btn.classList.add('opacity-70', 'cursor-not-allowed');
+            }
+
+            try {
+                if (aiEnabledCached === false) {
+                    showToast("AI ถูกปิดอยู่ (ตั้งค่า ALLOW_AI=1 และ GEMINI_API_KEY แล้วรีสตาร์ทเซิร์ฟเวอร์)", "error");
+                    return;
+                }
+                const missingNames = drugsArray
+                    .filter(d => !d.want || String(d.want).trim() === '')
+                    .map(d => d.name)
+                    .filter(Boolean);
+
+                if (missingNames.length === 0) {
+                    showToast("ไม่มีรายการที่ต้องเติมราคา", "info");
+                    return;
+                }
+
+                const response = await fetch('/api/ai-suggest', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ names: missingNames })
+                });
+
+                const payload = await response.json();
+                if (!response.ok) {
+                    if (response.status === 403) {
+                        showToast("AI ถูกปิดอยู่ (ตั้งค่า ALLOW_AI=1 แล้วรีสตาร์ทเซิร์ฟเวอร์)", "error");
+                    } else {
+                        showToast(payload?.error || "เรียก AI ไม่สำเร็จ", "error");
+                    }
+                    return;
+                }
+
+                const suggestions = payload?.suggestions || {};
+                let updatedCount = 0;
+                drugsArray.forEach(d => {
+                    if ((!d.want || String(d.want).trim() === '') && suggestions[d.name] != null) {
+                        d.want = String(suggestions[d.name]);
+                        updatedCount += 1;
+                    }
+                });
+
+                if (updatedCount === 0) {
+                    showToast("AI ไม่ได้ส่งค่าที่นำไปใช้ได้", "error");
+                    return;
+                }
+
+                await syncWithFile();
+                showToast(`เติมราคาให้ ${updatedCount} รายการแล้ว`, "success");
+            } catch (err) {
+                console.error(err);
+                showToast("เกิดข้อผิดพลาดในการเรียก AI", "error");
+            } finally {
+                aiSuggestLoading = false;
+                if (btn) {
+                    btn.innerText = prevText;
+                    btn.disabled = false;
+                    btn.classList.remove('opacity-70', 'cursor-not-allowed');
+                }
+            }
+        }
+
+        function updateSelectedCount() {
+            document.getElementById('selectedCount').textContent = selectedGlobalIndices.size.toLocaleString('th-TH');
+        }
+
+        function showConfirm({ title = "ยืนยัน", message = "ต้องการดำเนินการต่อหรือไม่", okText = "ยืนยัน", cancelText = "ยกเลิก", danger = true } = {}) {
+            return new Promise((resolve) => {
+                const modal = document.getElementById('confirmModal');
+                const titleEl = document.getElementById('confirmTitle');
+                const msgEl = document.getElementById('confirmMessage');
+                const okBtn = document.getElementById('confirmOkBtn');
+                const cancelBtn = document.getElementById('confirmCancelBtn');
+
+                titleEl.textContent = title;
+                msgEl.textContent = message;
+                okBtn.textContent = okText;
+                cancelBtn.textContent = cancelText;
+                okBtn.className = danger
+                    ? "px-4 py-2 rounded-lg bg-red-600 text-white font-semibold hover:bg-red-700 transition"
+                    : "px-4 py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition";
+
+                const cleanup = (result) => {
+                    okBtn.removeEventListener('click', onOk);
+                    cancelBtn.removeEventListener('click', onCancel);
+                    modal.removeEventListener('click', onBackdrop);
+                    document.removeEventListener('keydown', onKeyDown);
+                    modal.classList.add('hidden');
+                    resolve(result);
+                };
+
+                const onOk = () => cleanup(true);
+                const onCancel = () => cleanup(false);
+                const onBackdrop = (e) => { if (e.target === modal) cleanup(false); };
+                const onKeyDown = (e) => { if (e.key === "Escape") cleanup(false); };
+
+                okBtn.addEventListener('click', onOk);
+                cancelBtn.addEventListener('click', onCancel);
+                modal.addEventListener('click', onBackdrop);
+                document.addEventListener('keydown', onKeyDown);
+                modal.classList.remove('hidden');
+            });
+        }
+
+        // 1. โหลดข้อมูลจาก Server
+        async function fetchDrugs() {
+            try {
+                const response = await fetch('/api/drugs');
+                rawData = await response.json();
+                
+                drugsArray = [];
+                Object.keys(rawData).forEach(category => {
+                    if (Array.isArray(rawData[category])) {
+                        rawData[category].forEach(item => {
+                            if (item.name && item.profit !== "กำไร") {
+                                drugsArray.push({ ...item, category });
+                            }
+                        });
+                    }
+                });
+                hydrateCategoryFilter();
+                applyFilters();
+            } catch (err) {
+                console.error("โหลดข้อมูลไม่สำเร็จ:", err);
+            }
+        }
+
+        // 2. แสดงตาราง
+        function renderTable(data) {
+            lastRenderedItems = data.slice();
+            const tbody = document.getElementById('drugTableBody');
+            tbody.innerHTML = data.map((item) => {
+                const globalIndex = drugsArray.indexOf(item);
+                const checked = selectedGlobalIndices.has(globalIndex) ? "checked" : "";
+                return `
+                <tr class="hover:bg-indigo-50/50 transition">
+                    <td class="p-4 w-0">
+                        <input type="checkbox" class="rowSelect h-4 w-4 accent-indigo-600" data-gi="${globalIndex}" ${checked}>
+                    </td>
+                    <td class="p-4 font-medium text-gray-800">${escapeHtml(item.name)}</td>
+                    <td class="p-4 text-sm text-gray-500"><span class="bg-gray-100 px-2 py-1 rounded">${escapeHtml(item.category)}</span></td>
+                    <td class="p-4 text-blue-600 font-semibold">${escapeHtml(item.want || '-')}</td>
+                    <td class="p-4 text-green-600 font-bold">${escapeHtml(item.profit)} ฿</td>
+                    <td class="p-4 text-center space-x-2">
+                        <button onclick="editDrug(${globalIndex})" class="text-indigo-600 hover:bg-indigo-100 px-3 py-1 rounded transition">แก้ไข</button>
+                        <button onclick="deleteDrug(${globalIndex})" class="text-red-500 hover:bg-red-50 px-3 py-1 rounded transition">ลบ</button>
+                    </td>
+                </tr>
+            `}).join('');
+
+            const totalProfit = data.reduce((sum, d) => sum + (parseFloat(d.profit) || 0), 0);
+            document.getElementById('summaryCount').textContent = data.length.toLocaleString('th-TH');
+            document.getElementById('summaryProfit').textContent = totalProfit.toLocaleString('th-TH');
+
+            // wire row selection
+            tbody.querySelectorAll('input.rowSelect').forEach((cb) => {
+                cb.addEventListener('change', (e) => {
+                    const gi = parseInt(e.target.getAttribute('data-gi'), 10);
+                    if (Number.isNaN(gi)) return;
+                    if (e.target.checked) selectedGlobalIndices.add(gi);
+                    else selectedGlobalIndices.delete(gi);
+                    updateSelectedCount();
+                });
+            });
+            updateSelectedCount();
+
+            const selectAll = document.getElementById('selectAllVisible');
+            if (selectAll) {
+                const visibleIndices = lastRenderedItems.map(it => drugsArray.indexOf(it)).filter(i => i > -1);
+                const allChecked = visibleIndices.length > 0 && visibleIndices.every(i => selectedGlobalIndices.has(i));
+                selectAll.checked = allChecked;
+                selectAll.indeterminate = !allChecked && visibleIndices.some(i => selectedGlobalIndices.has(i));
+            }
+        }
+
+        // 3. ค้นหา
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            currentSearchTerm = (e.target.value || "").toLowerCase();
+            applyFilters();
+        });
+
+        document.getElementById('categoryFilter').addEventListener('change', (e) => {
+            currentCategory = e.target.value || "";
+            applyFilters();
+        });
+
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            currentSort = e.target.value || "default";
+            applyFilters();
+        });
+
+        document.getElementById('clearFiltersBtn').addEventListener('click', () => {
+            currentSearchTerm = "";
+            currentCategory = "";
+            currentSort = "default";
+            document.getElementById('searchInput').value = "";
+            document.getElementById('categoryFilter').value = "";
+            document.getElementById('sortSelect').value = "default";
+            applyFilters();
+        });
+
+        function hydrateCategoryFilter() {
+            const select = document.getElementById('categoryFilter');
+            const categories = getCategories();
+            const existing = new Set(Array.from(select.options).map(o => o.value));
+            categories.forEach((c) => {
+                if (existing.has(c)) return;
+                const opt = document.createElement('option');
+                opt.value = c;
+                opt.textContent = c;
+                select.appendChild(opt);
+            });
+        }
+
+        function getCategories() {
+            return Object.keys(rawData || {}).filter(Boolean).sort((a, b) => a.localeCompare(b, 'th'));
+        }
+
+        function populateCategorySelect(selectedCategory = "") {
+            const select = document.getElementById('itemCategorySelect');
+            if (!select) return;
+            const categories = getCategories();
+            select.innerHTML = categories.map(c => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join('');
+            if (selectedCategory && categories.includes(selectedCategory)) {
+                select.value = selectedCategory;
+            } else {
+                select.value = categories[0] || "";
+            }
+        }
+
+        function applyFilters() {
+            let filtered = drugsArray.filter(d => {
+                const name = (d.name || "").toLowerCase();
+                const category = (d.category || "").toLowerCase();
+                const matchText = !currentSearchTerm || name.includes(currentSearchTerm) || category.includes(currentSearchTerm);
+                const matchCategory = !currentCategory || d.category === currentCategory;
+                return matchText && matchCategory;
+            });
+            if (currentSort === "name_asc") {
+                filtered = filtered.slice().sort((a, b) => String(a.name || "").localeCompare(String(b.name || ""), 'th'));
+            } else if (currentSort === "profit_desc") {
+                filtered = filtered.slice().sort((a, b) => (parseFloat(b.profit) || 0) - (parseFloat(a.profit) || 0));
+            } else if (currentSort === "profit_asc") {
+                filtered = filtered.slice().sort((a, b) => (parseFloat(a.profit) || 0) - (parseFloat(b.profit) || 0));
+            }
+            renderTable(filtered);
+        }
+
+        // 4. จัดการ Modal
+        function openModal(index = -1) {
+            const modal = document.getElementById('drugModal');
+            modal.classList.remove('hidden');
+
+            // เติมรายการหมวดหมู่ทุกครั้ง กันกรณีกดเพิ่มก่อน fetch เสร็จ
+            populateCategorySelect();
+            const customInput = document.getElementById('itemCategoryCustom');
+            const toggleBtn = document.getElementById('toggleCustomCategoryBtn');
+            if (customInput && toggleBtn) {
+                customInput.classList.add('hidden');
+                customInput.value = "";
+                toggleBtn.textContent = "พิมพ์ใหม่";
+            }
+
+            if (index > -1) {
+                const item = drugsArray[index];
+                document.getElementById('editIndex').value = index;
+                document.getElementById('itemName').value = item.name;
+                populateCategorySelect(item.category);
+                document.getElementById('itemWant').value = item.want;
+                document.getElementById('itemProfit').value = item.profit;
+                document.getElementById('modalTitle').innerText = "📝 แก้ไขข้อมูลยา";
+            } else {
+                document.getElementById('editIndex').value = -1;
+                document.getElementById('itemName').value = "";
+                populateCategorySelect();
+                document.getElementById('itemWant').value = "";
+                document.getElementById('itemProfit').value = 0;
+                document.getElementById('modalTitle').innerText = "➕ เพิ่มยาใหม่";
+            }
+            setTimeout(() => document.getElementById('itemName')?.focus(), 0);
+        }
+
+        function closeModal() {
+            document.getElementById('drugModal').classList.add('hidden');
+        }
+
+        function editDrug(index) {
+            openModal(index);
+        }
+
+        // ปิด modal ด้วย ESC / คลิกพื้นหลัง
+        (function wireDrugModalClose() {
+            const modal = document.getElementById('drugModal');
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) closeModal();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === "Escape" && !modal.classList.contains('hidden')) closeModal();
+            });
+        })();
+
+        // สลับ เลือกหมวด/พิมพ์หมวดใหม่
+        (function wireCategoryPicker() {
+            const toggleBtn = document.getElementById('toggleCustomCategoryBtn');
+            const customInput = document.getElementById('itemCategoryCustom');
+            const select = document.getElementById('itemCategorySelect');
+            if (!toggleBtn || !customInput || !select) return;
+
+            toggleBtn.addEventListener('click', () => {
+                const isCustom = !customInput.classList.contains('hidden');
+                if (isCustom) {
+                    customInput.classList.add('hidden');
+                    customInput.value = "";
+                    toggleBtn.textContent = "พิมพ์ใหม่";
+                    select.focus();
+                } else {
+                    customInput.classList.remove('hidden');
+                    toggleBtn.textContent = "เลือกจากรายการ";
+                    customInput.focus();
+                }
+            });
+        })();
+
+        // 5. บันทึกและส่งไป Server
+        async function saveDrug() {
+            const index = parseInt(document.getElementById('editIndex').value);
+            const categorySelect = document.getElementById('itemCategorySelect');
+            const categoryCustom = document.getElementById('itemCategoryCustom');
+            const category = (categoryCustom && !categoryCustom.classList.contains('hidden') && categoryCustom.value.trim())
+                ? categoryCustom.value.trim()
+                : (categorySelect?.value || "").trim();
+
+            const updatedItem = {
+                want: document.getElementById('itemWant').value,
+                name: document.getElementById('itemName').value,
+                profit: parseFloat(document.getElementById('itemProfit').value) || 0,
+                category
+            };
+
+            if (!updatedItem.name || !updatedItem.category) {
+                showToast("กรุณากรอกชื่อยาและหมวดหมู่", "error");
+                return;
+            }
+
+            if (index > -1) {
+                drugsArray[index] = updatedItem;
+            } else {
+                drugsArray.unshift(updatedItem);
+            }
+
+            await syncWithFile();
+            closeModal();
+        }
+
+        // 6. ลบ
+        async function deleteDrug(index) {
+            const ok = await showConfirm({
+                title: "ลบรายการ",
+                message: "ยืนยันการลบรายการนี้? (ลบแล้วกู้คืนไม่ได้)",
+                okText: "ลบ",
+                cancelText: "ยกเลิก",
+                danger: true
+            });
+            if (ok) {
+                drugsArray.splice(index, 1);
+                await syncWithFile();
+            }
+        }
+
+        // 7. ฟังก์ชันรวมข้อมูลกลับเข้าโครงสร้าง JSON เดิมและส่งเซฟ
+        async function syncWithFile() {
+            // จัดกลุ่มข้อมูลกลับเข้าหมวดหมู่ตามโครงสร้างไฟล์เดิม
+            const newRawData = {};
+            drugsArray.forEach(item => {
+                const { category, ...rest } = item;
+                if (!newRawData[category]) newRawData[category] = [];
+                newRawData[category].push(rest);
+            });
+
+            try {
+                const response = await fetch('/api/drugs', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(newRawData)
+                });
+                if (response.ok) {
+                    showToast("บันทึกสำเร็จ", "success");
+                    hydrateCategoryFilter();
+                    applyFilters();
+                }
+            } catch (err) {
+                showToast("บันทึกลงไฟล์ไม่สำเร็จ!", "error");
+            }
+        }
+
+        // Export Excel + Selection helpers
+        document.getElementById('selectAllVisible').addEventListener('change', (e) => {
+            const visibleIndices = lastRenderedItems.map(it => drugsArray.indexOf(it)).filter(i => i > -1);
+            if (e.target.checked) visibleIndices.forEach(i => selectedGlobalIndices.add(i));
+            else visibleIndices.forEach(i => selectedGlobalIndices.delete(i));
+            applyFilters();
+        });
+
+        document.getElementById('clearSelectionBtn').addEventListener('click', () => {
+            selectedGlobalIndices.clear();
+            applyFilters();
+            showToast("ล้างรายการที่เลือกแล้ว", "success");
+        });
+
+        document.getElementById('exportBtn').addEventListener('click', async () => {
+            if (selectedGlobalIndices.size === 0) {
+                showToast("ยังไม่ได้เลือกรายการสำหรับ Export", "error");
+                return;
+            }
+            const ok = await showConfirm({
+                title: "Export Excel",
+                message: `ต้องการ export ${selectedGlobalIndices.size} รายการเป็นไฟล์ Excel ใช่ไหม?`,
+                okText: "Export",
+                cancelText: "ยกเลิก",
+                danger: false
+            });
+            if (!ok) return;
+
+            const rows = Array.from(selectedGlobalIndices)
+                .map(i => drugsArray[i])
+                .filter(Boolean)
+                .map((d, idx) => ({
+                    "ลำดับ": idx + 1,
+                    "ชื่อยา": d.name || "",
+                    "หมวดหมู่": d.category || "",
+                    "ราคา/ทุน": d.want || "",
+                    "กำไร": (parseFloat(d.profit) || 0)
+                }));
+
+            try {
+                const wb = XLSX.utils.book_new();
+                const ws = XLSX.utils.json_to_sheet(rows);
+                ws["!cols"] = [
+                    { wch: 6 },
+                    { wch: 28 },
+                    { wch: 18 },
+                    { wch: 14 },
+                    { wch: 10 }
+                ];
+                XLSX.utils.book_append_sheet(wb, ws, "Drugs");
+                const now = new Date();
+                const yyyy = now.getFullYear();
+                const mm = String(now.getMonth() + 1).padStart(2, '0');
+                const dd = String(now.getDate()).padStart(2, '0');
+                XLSX.writeFile(wb, `drug_export_${yyyy}-${mm}-${dd}.xlsx`);
+                showToast("Export สำเร็จ", "success");
+            } catch (e) {
+                console.error(e);
+                showToast("Export ไม่สำเร็จ", "error");
+            }
+        });
+
+        fetchDrugs();
+        refreshAiButtonState();
+        document.getElementById('aiSuggestBtn')?.addEventListener('click', suggestMissingWantWithAI);
+    </script>
+</body>
+</html>
