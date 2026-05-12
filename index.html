@@ -154,106 +154,6 @@
                 }, 2200);
         }
 
-        // AI: เติมราคา want ที่ยังว่าง (เรียกผ่าน server เพื่อไม่โชว์ API key ฝั่ง client)
-        let aiSuggestLoading = false;
-        let aiEnabledCached = null;
-
-        async function refreshAiButtonState() {
-            const btn = document.getElementById('aiSuggestBtn');
-            if (!btn) return;
-            try {
-                const res = await fetch('/api/ai-status');
-                const status = await res.json();
-                aiEnabledCached = Boolean(status?.allowAi) && Boolean(status?.hasApiKey);
-                if (!aiEnabledCached) {
-                    btn.disabled = true;
-                    btn.classList.add('opacity-70', 'cursor-not-allowed');
-                    btn.title = "AI ปิดอยู่: ตั้ง ALLOW_AI=1 และ GEMINI_API_KEY แล้วรีสตาร์ทเซิร์ฟเวอร์";
-                } else {
-                    btn.disabled = false;
-                    btn.classList.remove('opacity-70', 'cursor-not-allowed');
-                    btn.title = status?.model ? `Model: ${status.model}` : "";
-                }
-            } catch {
-                aiEnabledCached = false;
-                btn.disabled = true;
-                btn.classList.add('opacity-70', 'cursor-not-allowed');
-                btn.title = "เช็คสถานะ AI ไม่ได้";
-            }
-        }
-
-        async function suggestMissingWantWithAI() {
-            if (aiSuggestLoading) return;
-            aiSuggestLoading = true;
-
-            const btn = document.getElementById('aiSuggestBtn');
-            const prevText = btn?.innerText || "";
-            if (btn) {
-                btn.innerText = "⏳ กำลังประมวลผล...";
-                btn.disabled = true;
-                btn.classList.add('opacity-70', 'cursor-not-allowed');
-            }
-
-            try {
-                if (aiEnabledCached === false) {
-                    showToast("AI ถูกปิดอยู่ (ตั้งค่า ALLOW_AI=1 และ GEMINI_API_KEY แล้วรีสตาร์ทเซิร์ฟเวอร์)", "error");
-                    return;
-                }
-                const missingNames = drugsArray
-                    .filter(d => !d.want || String(d.want).trim() === '')
-                    .map(d => d.name)
-                    .filter(Boolean);
-
-                if (missingNames.length === 0) {
-                    showToast("ไม่มีรายการที่ต้องเติมราคา", "info");
-                    return;
-                }
-
-                const response = await fetch('/api/ai-suggest', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ names: missingNames })
-                });
-
-                const payload = await response.json();
-                if (!response.ok) {
-                    if (response.status === 403) {
-                        showToast("AI ถูกปิดอยู่ (ตั้งค่า ALLOW_AI=1 แล้วรีสตาร์ทเซิร์ฟเวอร์)", "error");
-                    } else {
-                        showToast(payload?.error || "เรียก AI ไม่สำเร็จ", "error");
-                    }
-                    return;
-                }
-
-                const suggestions = payload?.suggestions || {};
-                let updatedCount = 0;
-                drugsArray.forEach(d => {
-                    if ((!d.want || String(d.want).trim() === '') && suggestions[d.name] != null) {
-                        d.want = String(suggestions[d.name]);
-                        updatedCount += 1;
-                    }
-                });
-
-                if (updatedCount === 0) {
-                    showToast("AI ไม่ได้ส่งค่าที่นำไปใช้ได้", "error");
-                    return;
-                }
-
-                await syncWithFile();
-                showToast(`เติมราคาให้ ${updatedCount} รายการแล้ว`, "success");
-            } catch (err) {
-                console.error(err);
-                showToast("เกิดข้อผิดพลาดในการเรียก AI", "error");
-            } finally {
-                aiSuggestLoading = false;
-                if (btn) {
-                    btn.innerText = prevText;
-                    btn.disabled = false;
-                    btn.classList.remove('opacity-70', 'cursor-not-allowed');
-                }
-            }
-        }
-
         function updateSelectedCount() {
             document.getElementById('selectedCount').textContent = selectedGlobalIndices.size.toLocaleString('th-TH');
         }
@@ -344,7 +244,10 @@
 
             const totalProfit = data.reduce((sum, d) => sum + (parseFloat(d.profit) || 0), 0);
             document.getElementById('summaryCount').textContent = data.length.toLocaleString('th-TH');
-            document.getElementById('summaryProfit').textContent = totalProfit.toLocaleString('th-TH');
+            const summaryProfit = document.getElementById('summaryProfit');
+            if (summaryProfit) {
+                summaryProfit.textContent = totalProfit.toLocaleString('th-TH');
+            }
 
             // wire row selection
             tbody.querySelectorAll('input.rowSelect').forEach((cb) => {
@@ -650,8 +553,6 @@
         });
 
         fetchDrugs();
-        refreshAiButtonState();
-        document.getElementById('aiSuggestBtn')?.addEventListener('click', suggestMissingWantWithAI);
     </script>
 </body>
 </html>
