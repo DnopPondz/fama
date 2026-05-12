@@ -23,6 +23,7 @@
                     ✨ เติมราคาอัตโนมัติ (AI)
                 </button> -->
                 <button onclick="openModal()" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg font-bold shrink-0 transition">เพิ่มยาใหม่</button>
+                <a href="/calculator.html" class="bg-amber-500 hover:bg-amber-600 px-4 py-2 rounded-lg font-bold shrink-0 transition text-white text-center">หน้าคำนวณรายได้</a>
             </div>
         </div>
     </header>
@@ -36,6 +37,8 @@
             </div>
             <div class="flex gap-2">
                 <button id="exportBtn" class="px-3 py-2 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition text-sm font-semibold">Export Excel</button>
+                <button id="copySelectedNamesBtn" class="px-3 py-2 rounded-lg bg-sky-600 text-white hover:bg-sky-700 transition text-sm font-semibold">คัดลอกชื่อที่เลือก</button>
+                <button id="focusModeBtn" class="px-3 py-2 rounded-lg bg-violet-600 text-white hover:bg-violet-700 transition text-sm font-semibold">Focus Mode</button>
                 <div class="flex items-center gap-2 px-3 py-2 rounded-lg bg-white border text-sm">
                     <span class="text-gray-600">เลือก</span>
                     <span class="font-semibold text-gray-900" id="selectedCount">0</span>
@@ -127,6 +130,7 @@
         let currentSort = "default";
         let lastRenderedItems = [];
         const selectedGlobalIndices = new Set();
+        let focusMode = false;
 
         function escapeHtml(text) {
             return String(text ?? "").replace(/[&<>"']/g, (ch) => ({
@@ -504,6 +508,42 @@
             showToast("ล้างรายการที่เลือกแล้ว", "success");
         });
 
+        document.getElementById('copySelectedNamesBtn').addEventListener('click', async () => {
+            const selectedItems = Array.from(selectedGlobalIndices)
+                .map(i => drugsArray[i])
+                .filter(Boolean);
+            if (selectedItems.length === 0) {
+                showToast("ยังไม่ได้เลือกรายการ", "error");
+                return;
+            }
+            const text = selectedItems.map(d => d.name || "").filter(Boolean).join("\n");
+            if (!text) {
+                showToast("ไม่มีชื่อยาที่คัดลอกได้", "error");
+                return;
+            }
+            try {
+                await navigator.clipboard.writeText(text);
+                showToast(`คัดลอกชื่อยา ${selectedItems.length} รายการแล้ว`, "success");
+            } catch {
+                showToast("คัดลอกไม่สำเร็จ (เบราว์เซอร์ไม่อนุญาต)", "error");
+            }
+        });
+
+        document.getElementById('focusModeBtn').addEventListener('click', () => {
+            focusMode = !focusMode;
+            const header = document.querySelector('header');
+            const button = document.getElementById('focusModeBtn');
+            if (focusMode) {
+                header?.classList.add('hidden');
+                button.textContent = "Exit Focus";
+                showToast("เปิด Focus Mode แล้ว (กด Ctrl+/ เพื่อสลับ)", "info");
+            } else {
+                header?.classList.remove('hidden');
+                button.textContent = "Focus Mode";
+                showToast("ปิด Focus Mode แล้ว", "info");
+            }
+        });
+
         document.getElementById('exportBtn').addEventListener('click', async () => {
             if (selectedGlobalIndices.size === 0) {
                 showToast("ยังไม่ได้เลือกรายการสำหรับ Export", "error");
@@ -549,6 +589,18 @@
             } catch (e) {
                 console.error(e);
                 showToast("Export ไม่สำเร็จ", "error");
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.key === '/') {
+                e.preventDefault();
+                document.getElementById('focusModeBtn')?.click();
+            }
+            if (e.ctrlKey && e.key.toLowerCase() === 'k') {
+                e.preventDefault();
+                document.getElementById('searchInput')?.focus();
+                showToast("พร้อมค้นหาแล้ว (Ctrl+K)", "info");
             }
         });
 
